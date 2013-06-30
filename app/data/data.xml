@@ -102,8 +102,8 @@
         <country>US</country>
         <phone>310-433-6322</phone>
         <email>
-            <ca>jason@creativeacceleration.com</ca>
-            <personal>jason@jasonchaney.com</personal>
+            jason@creativeacceleration.com
+
         </email>
     </contact>
     <process>
@@ -113,7 +113,7 @@
         <subtitle>What separates me from other developers?</subtitle>
         <body>
             <![CDATA[
-            If you ask a developer what they use to make a website, one might say<a
+            If you ask a developer what they use to make a website, one might say <a
                 href="http://www.adobe.com/products/dreamweaver.html" target="_blank">Dreamweaver</a>,
             another might say
             <a href="http://wordpress.org/" target="_blank">Wordpress</a>
@@ -122,7 +122,7 @@
             and another might
             say
             <a href="http://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>
-            or<a href="http://nodejs.org/" target="_blank">Node</a>.
+            or <a href="http://nodejs.org/" target="_blank">Node</a>.
 
             Just this one answer can tell you tons about the nature of those developers. While it doesn't
             necessarily provide a way to know which one might be more skilled at software architecture, it does
@@ -140,90 +140,54 @@
         </asside>
         <points>
             <point>
-                <headline>The Editor...or rather IDE</headline>
-                <body>
-                    A good text editor will do things like syntax
-                    highlighting. A great editor will do things like code completion. But an awesome editor is not
-                    an
-                    editor at all, It's an
-                    <a
-                            href="http://en.wikipedia.org/wiki/Integrated_development_environment">IDE
-                    </a>
-                    or Integrated
-                    Development Environment. Some common IDE's are<a href="http://www.eclipse.org/">Eclipse</a>,
-                    Apple's<a href="http://developer.apple.com/tools/xcode/">xCode</a>,
-                    <a href="http://www.adobe.com/products/flash-builder.html">Flash Builder</a>
-                    (Built on Eclipse),
-                    <a href="http://www.appcelerator.com/">Appcelerator</a>
-                    and<a href="http://www.jetbrains.com/webstorm/">Webstorm</a>. Personally, I use
-                    <a href="http://www.jetbrains.com/idea/">IntelliJ</a>. The big reason to use an IDE is because
-                    text editors like
-                    <a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a>
-                    simply
-                    understand the piece of code you're writing, but IDE's understand how it all connects. This is
-                    an invaluable distinction and can save untold amounts
-                    of
-                    time both on the development and debugging sides.
-                </body>
-            </point>
-            <point>
                 <headline>Build Process</headline>
                 <body>
-                    Websites and apps have grown to a complexity level that they now require more robust techniques
-                    for deployment, code optimization and overall organization. The industry standard tool for doing
+                    <![CDATA[
+                    Web applications have grown to a complexity level that they now require more robust techniques
+                    for deployment, performance optimization and overall organization. The industry-standard tool for doing
                     this is
                     <a href="http://gruntjs.com/" target="_blank">Grunt</a>
                     and I love to find
-                    ever-efficient ways to build projects for both development and production with it. I use grunt
-                    for many tasks including deployment, image optimization, CSS/JS complication, Linting and
-                    minifying.
+                    ever-efficient ways to use it for tasks like image compression, code complication, linting, minifying and running automated acceptance tests.]]>
                 </body>
             </point>
             <point>
                 <headline>Version Control</headline>
                 <body>
-                    Any developer that doesn't use version control doesn't understand the benefits, and
-                    therefore probably has not worked in a team environment or on extremely large projects and is
-                    most likely still FTPing files around. I take
-                    version control
-                    one step further. Not only do I use the<a href="http://git-scm.com/">Git version control
+                    <![CDATA[
+                    Not only do I use the <a href="http://git-scm.com/">Git version control
                     system</a>, I also run my own Git server
                     with<a href="https://github.com/sitaramc/gitolite">Gitolite</a>. Many people who aren't able to
                     run their own server also use
-                    <a href="https://github.com/">Github</a>
-                    which works
-                    really well too. If I am stuck dealing with FTP, I'll use something like
+                    <a href="https://github.com/">Github</a>, <a href="http://beanstalkapp.com/" target="_blank">Beanstalk</a>
+                     or <a href="https://bitbucket.org/" target="_blank">Bitbucket</a>
+                     
+                    which all work
+                    well too. If I am stuck dealing with FTP, I'll use something like
                     <a href="https://github.com/scttnlsn/dandelion" target="_blank">Dandelion</a>
-                    if
-                    <a href="http://en.wikipedia.org/wiki/Rsync" target="_blank">Rsync</a>
-                    or Git deployment is unavailable.
+
+                    if <a href="http://danbarber.me/using-git-for-deployment/" target="_blank">Git deployment</a>
+                     is unavailable.  If <a href="http://en.wikipedia.org/wiki/Rsync" target="_blank">Rsync</a> is at least an option, I'll use
+                    <a href="https://github.com/jedrichards/grunt-rsync" target="_blank">grunt-rsync</a> so I can automate deployment as part of my build process]]>
                 </body>
             </point>
             <point>
                 <headline>Pre-compilers</headline>
                 <body>
+                    <![CDATA[
                     Every developer is going to say they know CSS. What this really means, is that they understand
                     how to
-                    position and style DOM elements. Once again, I take this further. I use
-                    <a href="http://sass-lang.com/">Sass</a>
+                    position and style DOM elements. I take this further with
+                    <a href="http://sass-lang.com/">Sass</a> and the
+                    <a href="http://compass-style.org/" target="_blank">Compass</a>
+                    framework
                     to
-                    organize, optimize and generate cross-device/browser code. I also incorporate CSS3 transitions
-                    and transforms over JS whenever possible to take advantage of the accelerated performance. What
+                    organize, optimize and generate cross-device/browser code. I also use <a href="https://gist.github.com/jchaney01/5777866" target="_blank">custom Sass mixins</a>
+                     to further organize mobile-first styles.  Many developers don't consider things like
+                    <a href="http://www.tuaw.com/2008/01/23/how-web-clips-work/" target="_blank">Webclips</a>
+                   when coding. I do.  What
                     this
-                    means for a client, is simply that I create more organized code and faster load times.
-                </body>
-            </point>
-            <point>
-                <headline>CSS Resetting</headline>
-                <body>
-                    I use
-                    <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>
-                    to ensure that CSS is as consistent as possible when starting a
-                    project. Technically, I use a custom repo first started with
-                    <a href="http://www.initializr.com/" target="_blank">Initializr</a>
-                    which includes HTML5 Boilerplate,
-                    <a target="_blank" href="http://twitter.github.com/bootstrap/">Twitter's Bootstrap</a>
-                    and a few others.
+                    means for a client, is simply that I create more organized code with faster load times.]]>
                 </body>
             </point>
             <point>
@@ -231,244 +195,56 @@
                     Browser testing
                 </headline>
                 <body>
-                    I use
-                    <a href="http://www.parallels.com/products/desktop/">Parallels Desktop</a>
-                    and sometimes
-                    <a href="https://www.virtualbox.org/" target="_blank">Virtual Box</a>
-                    with Windows XP and 7 to test IE6-9. Chrome, Firefox, iOS and Safari are
-                    tested
-                    on the Mac side. I also use a few Andriod tablets and the iOS simulator.
-                </body>
-            </point>
-            <point>
-                <headline>Mobile styling and functionality</headline>
-                <body>
-                    What happens when a project is viewed on a mobile device? Suffice it to say it's a major
-                    consideration on projects I work on. I'm intimately familiar with Apple's iOS developer
-                    guidelines
-                    for mobile web development. Many developers don't consider
-                    <a href="http://www.tuaw.com/2008/01/23/how-web-clips-work/" target="_blank">Webclips</a>
-                    or High-PPI screens. I do.
+                    <![CDATA[
+                    Today's interactive applications must run on many platforms.  The average project I do is tested in over 30 browser versions.
+                    I personally own most software platforms and test locally including Microsoft's Surface Pro, Android, iOS, and can emulate all desktop browsers.]]>
                 </body>
             </point>
             <point>
                 <headline>JavaScript</headline>
                 <body>
+                    <![CDATA[
                     Most developers are going to say they know JavaScript but since JavaScript is a separate art in
                     it's
-                    own right, I encourage prospective clients to understand the level that someone really
+                    own right, I encourage prospective clients to really understand the level that someone
                     knows
-                    JavaScript. I don't simply modify JavaScript or use a framework like JQuery. I write
+                    JavaScript. I don't simply modify JavaScript libraries or use a DOM manipulation tool like JQuery. I write
                     <em>custom</em>
-                    JavaScript that follows the MVC design pattern utilizing
-                    <a href="http://documentcloud.github.com/backbone/">Backbone.js</a>
-                    and<a href="http://jquery.com/">JQuery</a>. If you're
-                    interested in developing a polished site or application which includes as much
-                    <a href="http://en.wikipedia.org/wiki/Ajax_(programming)">AJAX</a>
-                    functionality as
-                    you can muster, you must develop in a way that allows you to organize large quantities of code.
-                    Mixing
-                    data into the DOM is a great way to have parts of your site fail when it reaches a high
-                    complexity level. When I say I know JavaScript, I really know it.
+                    JavaScript that follows the
+                    <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank">MVC</a>
+                    design pattern utilizing tools like
+                    <a href="http://documentcloud.github.com/backbone/">Backbone</a>, <a href="http://requirejs.org/">RequireJS</a>
+                    and <a href="http://nodejs.org/">Node</a> and <a href="http://jade-lang.com/" target="_blank">Jade</a>. When I say I know JavaScript, I really know it.]]>
                 </body>
             </point>
             <point>
-                <headline>RequireJS</headline>
+                <headline>REST API</headline>
                 <body>
-                    It's important to make sure that all script files are loaded and loaded in a specific order. I
-                    use
-                    <a href="http://requirejs.org/">require.js</a>
-                    for this function. If you're a developer and are using a ton of JavaScript files on
-                    your
-                    project, I encourage you to start using a module loader like RequireJS as it will help you
-                    improve
-                    the quality and speed of your code.
+                    <![CDATA[
+                    Today's applications don't just consume data from 3rd party sources, but also need to supply data; even if it's to it's own user interface.
+                    I follow strict <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a> principles so when another
+                    developer takes over my work, he/she should be able to easily understand how the application works.
+                   ]]>
                 </body>
             </point>
             <point>
-                <headline>API</headline>
-                <body>Many projects require pushing and pulling content from a database. Good developers will write
-                    clean
-                    code to interface with the database. Great developers will use an
-                    <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a>
-                    tool so they can simply
-                    write
-                    less code to interface with the database. Awesome developers will create an
-                    <a href="http://en.wikipedia.org/wiki/Application_programming_interface">API</a>
-                    (with a
-                    <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a>
-                    interface) to utilize an ORM tool so other sites, web services and applications can access data.
-                    Truly exceptional developers take it one step even further and use a REST server.
-                    Many people will look at this and say the good developer that just writes clean code to
-                    interface
-                    with the database directly is all their project needs so why spend time (thus money) doing all
-                    that? What
-                    they
-                    wouldn't realize is that it's actually faster to develop with these tools. Using a REST API and
-                    ORM
-                    tool is faster, cleaner, more maintainable and extensible than interfacing with the database
-                    directly so there's really no reason not to go that route except one. Knowledge.
-                </body>
-            </point>
-            <point>
-                <headline>ORM</headline>
+                <headline>Testing</headline>
                 <body>
-                    I'll spare you from the technobabble but basically an ORM tool allows you to write a lot less
-                    code
-                    to work with a database to accomplish the exact same things. It also helps keep things
-                    organized.
-                    Personally, I use either
-                    <a href="http://redbeanphp.com/">RedbeanPHP</a>
-                    or the native
-                    <a href="http://en.wikipedia.org/wiki/Active_record_pattern" target="_blank">active record
-                        pattren
-                    </a>
-                    syntax found in many frameworks like<a href="http://codeigniter.com/" target="_blank">
-                    CodeIgniter</a>.
-                </body>
-            </point>
-            <point>
-                <headline>Templating</headline>
-                <body>
-                    For large-scale deployments, I use both
-                    <a href="http://twig.sensiolabs.org/">Twig</a>
-                    and on the JavaScript side,<a href="http://api.jquery.com/category/plugins/templates/">JQuery
-                    templates</a>. On mid to small
-                    projects or projects where other team members may not be familiar with those, I'll usually just
-                    use the templating tool that's part of whatever framework is being used.
-                </body>
-            </point>
-            <point>
-                <headline>REST Server</headline>
-                <body>
-                    I like CodeIgniter's controllers for creating most APIs as it's one of the fastest in terms of
-                    performance
-                    but I will also sometimes use a modified
-                    <a href="http://jacwright.com/250/simple-rest-server-in-php-supports-json-amf/">rest server</a>
-                    originally created by Jacob Wright that uses PHP introspection to
-                    map
-                    HTTP requests as defined in code comments to specific class methods. The server is also
-                    responsible
-                    for translating and escaping data to
-                    <a href="http://www.json.org/">JSON</a>
-                    as well and managing the various HTTP verbs (GET, POST, PUT, DELETE and UPDATE).
-                </body>
-            </point>
-            <point>
-                <headline>JQuery</headline>
-                <body>
-                    If you're reading this, you likely already know what
-                    <a href="http://jquery.com/">JQuery</a>
-                    is since it's now on more than half of all websites, but if you don't, it's basically a
-                    tool (framework) to write less JavaScript and have that JavaScript function consistently across
-                    platforms. I use JQuery extensively in most interactive projects but can drop down to Javascript
-                    syntax if need be. I also write custom JQuery plugins occasionally should one unlikely not
-                    exist.
-                </body>
-            </point>
-            <point>
-                <headline>Debugging Tools</headline>
-                <body>
-                    I use<a href="http://www.charlesproxy.com/">Charles Proxy</a>,
-                    <a href="http://getfirebug.com/">Firebug</a>
-                    and
-                    <a href="http://www.deltopia.com/compare-merge-sync/macosx/">Deltawalker</a>
-                    in addition to the IDE. You can find out what each
-                    of
-                    these are via the links. When something doesn't work right, you want someone who can find out
-                    why
-                    and find out quickly.
-                </body>
-            </point>
-            <point>
-                <headline>Documentation</headline>
-                <body>
-                    Any good developer will comment their code for others. I also use<a
-                        href="http://daringfireball.net/projects/markdown/">Markdown</a>,
-                    <a href="http://www.omnigroup.com/products/omnigraffle/" target="_blank">Omnigraffle</a>, and
-                    wikis to help document code should it make sense on a project.
-                </body>
-            </point>
-            <point>
-                <headline>Working Locally</headline>
-                <body>
-                    I use
-                    <a href="http://www.mamp.info/en/mamp-pro/">MAMP Pro</a>
-                    to create virtual machines and map development URLs to local vhosts. In a
-                    nutshell, I create projects on my computer before I push them up to a staging or live production
-                    server. How do I push them up?
-                    <a href="http://en.wikipedia.org/wiki/File_Transfer_Protocol" target="_blank">FTP</a>
-                    is slow and insecure
-                    so I use a Git post-hook to keep production, stage and dev locations in sync with remote repos.
-                    In layman's terms, that means I can update a
-                    site with a single click and that update happens faster and in such a way that's easy to fix
-                    should a file get narfed by someone else.
-                    If you are a developer and would like to read more specifics, you can
-                    <a href="http://wiki.creativeacceleration.com/index.php/Git_as_a_deployment_mechanism"
-                       target="_blank">check out
-                    </a>
-                    how we do it.
-                </body>
-            </point>
-            <point>
-                <headline>
-                    Database Management
-                </headline>
-                <body>
-                    I use
-                    <a href="http://www.navicat.com/">Navicat</a>
-                    and the CLI to manage my databases. For those wondering, it would replace the need for
-                    <a href="http://www.phpmyadmin.net/home_page/index.php">PHPMyAdmin</a>
-                    when using a GUI.
-                </body>
-            </point>
-            <point>
-                <headline>Issue Tracking</headline>
-                <body>
-                    I've used a few tools including
-                    <a href="http://www.atlassian.com/software/jira/overview" target="_blank">Jira</a>
-                    and
-                    <a href="http://en.wikipedia.org/wiki/Lighthouse" target="_blank">Lighthouse</a>
-                    but perfer<a href="http://www.jetbrains.com/youtrack/" target="_blank">YouTrack</a>.
-                    If you'd like to know why, just<a href="mailto:jason@jasonchaney.com">ask</a>.
-                </body>
-            </point>
-            <point>
-                <headline>Video Fallbacks</headline>
-                <body>
-                    I'm still looking for a preference but I generally use a JavaScript library like the
-                    <a href="http://www.kaltura.org/project/HTML5_Video_Media_JavaScript_Library">Kartura Media
-                        Library
-                    </a>
-                    to provide Flash
-                    replacement to HTML5 video if the video element is unsupported. This ensures that video and
-                    audio content is compatible on all
-                    devices
-                    and platforms.
-                </body>
-            </point>
-            <point>
-                <headline>Speed</headline>
-                <body>I'd like to end this with one more point. If you hand off a comp (a layered Photoshop file)
-                    for a developer to bring to life, will they separate out each multi-layer element
-                    as a separate image with 2 or less clicks? Do you want someone knowledgeable about
-                    time-savers like<a href="http://www.mightymeta.co.uk/superslicr-ditch-the-slice-tool/"
-                                       target="_blank">this</a>? I'm always looking for more efficient ways to do
-                    things.
-
-                    If you value that, let's chat.
+                    <![CDATA[
+                    Unit, functional and acceptance testing is the practice of writing code that checks parts of the application for errors.
+                    This practice usually results in more stable code with less bugs.  When I writ tests, I usually use <a href="http://codeception.com/" target="_blank">Codeception</a>
+                     or <a href="https://github.com/pivotal/jasmine" target="_blank">Jasmine</a>.
+                   ]]>
                 </body>
             </point>
         </points>
         <close>
-            As you can see, there are many aspects and tools to creating the rich interactive experiences
+            <![CDATA[
+            As you can see, there are many aspects to creating the rich interactive experiences
             that
-            people expect. It's important to make sure that you know when and how to use them. Not using
-            these
-            tools, means development will take longer, cost more, be harder to maintain in the future and is
-            generally more prone to fail. As a prospective client, you'll need to decide who you want to hire for
-            your
-            project.
+            people expect. Using the right tools and techniques means development will cost less, the app will be easier to maintain and is
+            generally less prone to fail. As a prospective client, you'll need to decide if these things are valuable to your next project.
+            ]]>
         </close>
     </process>
     <portfolio>

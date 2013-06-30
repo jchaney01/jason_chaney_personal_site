@@ -1,5 +1,32 @@
 module.exports = function (grunt) {
     grunt.initConfig({
+        deployexclude:{
+            production:[
+               '.idea',
+               '*.DS_Store',
+               '.sass-cache',
+               '/client',
+               '/node_modules',
+               '.bowerrc',
+               '.gitignore',
+               'artisan',
+               'composer.json',
+               'composer.lock',
+               'config.rb',
+               '*.iml',
+               'Gruntfile.js',
+               'package.json',
+               'phpunit.xml',
+               'readme.md',
+               'component.json',
+               '.git',
+               '.gitattributes'
+            ]},
+        img: {
+
+           src: 'public/img'
+
+        },
         concat:{
             options:{
                 stripBanners:false
@@ -56,7 +83,7 @@ module.exports = function (grunt) {
                     beautify: false,
                     mangle:true
                 },
-                files: { 'js/app.js':  '<%= concat.all.src %>' }
+                files: { 'public/js/app.js':  '<%= concat.all.src %>' }
             }
         },
         compass: {
@@ -65,6 +92,18 @@ module.exports = function (grunt) {
                     config: 'config.rb',
                     force: true
                 }
+            }
+        },
+        rsync: {
+            "deploy-production": {
+                src: "./",
+                dest: "/var/www/jasonchaney.com",
+                host:  'jchaney@gemini.creativeacceleration.com',
+                recursive: true,
+                syncDest: true,
+                syncDestIgnoreExcl: false, //Will delete files on server if not present locally if set to false
+                exclude: '<%= deployexclude.production %>',
+                args: ["-h","--stats"]
             }
         }
 
@@ -87,5 +126,13 @@ module.exports = function (grunt) {
         'compass',
         'concat',
         'watch'
+    ]);
+
+    // production is on CA MT VE
+    grunt.registerTask('deploy', [
+        'img',
+        'compass',
+        'uglify',
+        'rsync:deploy-production'
     ]);
 };
