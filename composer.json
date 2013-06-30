@@ -1,7 +1,8 @@
 {
 	"require": {
 		"laravel/framework": "4.0.*",
-		"codeception/codeception": "@stable"
+		"codeception/codeception": "@stable",
+        "thujohn/twitter": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

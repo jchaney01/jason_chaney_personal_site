@@ -1,14 +1,18 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the Closure to execute when that URI is requested.
-|
-*/
-
 Route::get('/', array('uses' => 'SiteController@index','as' => 'home'));
+Route::post('/', array('uses' => 'SiteController@contactForm','as' => 'contact'));
+Route::get('/resume', array('uses' => 'SiteController@resume','as' => 'resume'));
+Route::get('/tweets', function()
+{
+    return Twitter::getUserTimeline(array('screen_name' => 'jchaney01', 'count' => 30));
+});
+Route::get('/data', function()
+{
+    $path = app_path().'/data/data.xml';
+    $xml=simplexml_load_file($path);
+    $json = json_encode($xml);
+    $array = json_decode($json,TRUE);
+    return $array;
+});
+

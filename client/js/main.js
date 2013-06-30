@@ -77,11 +77,11 @@ CHAKRA.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '/img/source_art/trapit.png', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '/img/source_art/skype_stay_together.png', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '/img/source_art/yopine2.png', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '/img/source_art/stratos.png', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '/img/source_art/hawaii_here.png', title : '<div class="slide-content"></div>', thumb : '', url : ''}
+											{image : '/img/source_art/trapit.png', title : '<div class="slide-content">Trap.it NodeJS Website</div>', thumb : '', url : ''},
+											{image : '/img/source_art/skype_stay_together.png', title : '<div class="slide-content">Skype Stay Together Wordpress Site</div>', thumb : '', url : ''},
+											{image : '/img/source_art/yopine2.png', title : '<div class="slide-content">Yopine iOS App</div>', thumb : '', url : ''},
+											{image : '/img/source_art/stratos.png', title : '<div class="slide-content">Red Bull Stratos Responsive Site</div>', thumb : '', url : ''},
+											{image : '/img/source_art/hawaii_here.png', title : '<div class="slide-content">Hawaii Here jQuery Mobile Site</div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
@@ -208,17 +208,17 @@ CHAKRA.contactForm = function(){
 		
 		$.ajax({
 			type: "POST",
-			url: "_include/php/contact.php",
+			url: "/",
 			data: fields,
 			dataType: 'json',
 			success: function(response) {
 				
-				if(response.status){
+				if(response.status == 200){
 					$('#contact-form input').val('');
 					$('#contact-form textarea').val('');
 				}
 				
-				$('#response').empty().html(response.html);
+				$('#response').empty().html(response.data);
 			}
 		});
 		return false;
@@ -253,7 +253,6 @@ CHAKRA.tweetFeed = function(){
 	  };
 	  ticker();
 	});
-	
 }
 
 
@@ -264,9 +263,9 @@ CHAKRA.tweetFeed = function(){
 CHAKRA.menu = function(){
 	$('#menu-nav, #menu-nav-mobile').onePageNav({
 		currentClass: 'current',
-    	changeHash: false,
+    	changeHash: true,
     	scrollSpeed: 750,
-    	scrollOffset: 30,
+    	scrollOffset: 0,
     	scrollThreshold: 0.5,
 		easing: 'easeOutExpo',
 		filter: ':not(.external)'
@@ -509,6 +508,11 @@ $(document).ready(function(){
 	CHAKRA.toggle();
 	CHAKRA.toolTip();
 	CHAKRA.map();
+    var launchTimeout = setTimeout(function(){$("html, body").animate({ scrollTop: "75px" });},2500);
+    $(window).scroll(function(){
+        clearTimeout(launchTimeout);
+    });
+
 });
 
 $(window).resize(function(){

@@ -14,9 +14,8 @@ class SiteController extends BaseController {
 	}
 
     public function resume(){
-        return View::make('hello',$this->viewData);
+        return View::make('resume',$this->viewData);
     }
-
 
     /*
     | Get XML Data as Object
@@ -38,10 +37,44 @@ class SiteController extends BaseController {
     | @return array
     */
 
-    private function prepareViewData(){
-        return $this->viewData = array_merge($array1, $array2);$this->viewData = array(
-            'data'=>$this->getXMLData('../data/data.xml')
-        );
+    private function prepareViewData($data){
+        return $this->viewData = array_merge($data, array(
+            'data'=>$this->getXMLData(app_path().'/data/data.xml')
+        ));
     }
 
+    public function contactForm(){
+        $validator = Validator::make(
+            array(
+                'name' => Input::get("name"),
+                'email' => Input::get("email"),
+                'message' => Input::get("message")
+            ),
+            array(
+                'name' => 'required',
+                'email' => 'required|email',
+                'message' => 'required'
+            )
+        );
+
+        if ($validator->fails())
+        {
+            $data = array(
+                "status"=>400,
+                "data"=>$validator->messages()->first()
+            );
+            return $data;
+        } else {
+            $data = array(
+                "name"=>Input::get("name"),
+                "email"=>Input::get("email"),
+                "message_text"=>Input::get("message"),
+            );
+            Mail::later(10,'emails.welcome', $data, function($message)
+            {
+                $message->to('jason@creativeacceleration.com', 'Jason Chaney')->subject('JaosnChaney.com Contact Form Submission');
+            });
+            return array("status"=>200,"data"=>"Thanks! I'll get right back to you.");
+        }
+    }
 }
