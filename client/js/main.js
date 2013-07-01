@@ -55,7 +55,7 @@ CHAKRA.slider = function(){
 		stop_loop				:	0,			// Pauses slideshow on last slide
 		random					: 	0,			// Randomize slide order (Ignores start slide)
 		slide_interval          :   12000,		// Length between transitions
-		transition              :   2, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+		transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
 		transition_speed		:	300,		// Speed of transition
 		new_window				:	1,			// Image links open in new window/tab
 		pause_hover             :   0,			// Pause slideshow on hover
@@ -77,11 +77,11 @@ CHAKRA.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '/img/source_art/trapit.png', title : '<div class="slide-content">Trap.it NodeJS Website</div>', thumb : '', url : ''},
-											{image : '/img/source_art/skype_stay_together.png', title : '<div class="slide-content">Skype Stay Together Wordpress Site</div>', thumb : '', url : ''},
-											{image : '/img/source_art/yopine2.png', title : '<div class="slide-content">Yopine iOS App</div>', thumb : '', url : ''},
-											{image : '/img/source_art/stratos.png', title : '<div class="slide-content">Red Bull Stratos Responsive Site</div>', thumb : '', url : ''},
-											{image : '/img/source_art/hawaii_here.png', title : '<div class="slide-content">Hawaii Here jQuery Mobile Site</div>', thumb : '', url : ''}
+											{image : '/img/slider-images/trapit.jpg', title : '<div class="slide-content">Trap.it NodeJS Website</div>', thumb : '', url : ''},
+											{image : '/img/slider-images/skype_stay_together.jpg', title : '<div class="slide-content">Skype Stay Together Wordpress Site</div>', thumb : '', url : ''},
+											{image : '/img/slider-images/yopine2.jpg', title : '<div class="slide-content">Yopine iOS App</div>', thumb : '', url : ''},
+											{image : '/img/slider-images/stratos.jpg', title : '<div class="slide-content">Red Bull Stratos Responsive Site</div>', thumb : '', url : ''},
+											{image : '/img/slider-images/hawaii_here.jpg', title : '<div class="slide-content">Hawaii Here jQuery Mobile Site</div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
@@ -160,40 +160,11 @@ CHAKRA.filter = function (){
 ================================================== */
 
 CHAKRA.fancyBox = function(){
-	if($('.fancybox').length > 0 || $('.fancybox-media').length > 0 || $('.fancybox-various').length > 0){
+	if($('.fancybox').length > 0){
 		
-		$(".fancybox").fancybox({				
-			padding : 0,
-			beforeShow: function () {
-				this.title = $(this.element).attr('title');
-				this.title = '<h4>' + this.title + '</h4>' + '<p>' + $(this.element).parent().find('img').attr('alt') + '</p>';
-			},
-			helpers : {
-				title : { type: 'inside' },
-			}
-		});
-			
-		$('.fancybox-media').fancybox({
-			openEffect  : 'none',
-			closeEffect : 'none',
-			helpers : {
-				media : {}
-			}
-		});
-		
-		$(".fancybox-various").fancybox({
-			maxWidth	: 800,
-			maxHeight	: 600,
-			fitToView	: false,
-			width		: '70%',
-			height		: '70%',
-			autoSize	: false,
-			closeClick	: false,
-			openEffect	: 'none',
-			closeEffect	: 'none'
-		});
+
 	}
-}
+};
 
 
 /* ==================================================
@@ -491,15 +462,18 @@ $(document).ready(function(){
 		showPercentage: true,
 		autoClose: true
 	});
-	
-	CHAKRA.nav();
+
+
+
+
+    CHAKRA.nav();
 	CHAKRA.mobileNav();
 	CHAKRA.listenerMenu();
 	CHAKRA.menu();
 	CHAKRA.goSection();
 	CHAKRA.goUp();
 	CHAKRA.filter();
-	CHAKRA.fancyBox();
+	//CHAKRA.fancyBox();
 	CHAKRA.contactForm();
 	CHAKRA.tweetFeed();
 	CHAKRA.scrollToTop();
@@ -508,10 +482,21 @@ $(document).ready(function(){
 	CHAKRA.toggle();
 	CHAKRA.toolTip();
 	CHAKRA.map();
-    var launchTimeout = setTimeout(function(){$("html, body").animate({ scrollTop: "75px" });},2500);
-    $(window).scroll(function(){
-        clearTimeout(launchTimeout);
+
+
+    $('.fancybox').magnificPopup({
+        type: 'image'
     });
+
+
+//    $("img.lazy").lazyload({
+//        effect : "fadeIn"
+//    });
+
+    //var launchTimeout = setTimeout(function(){$("html, body").animate({ scrollTop: "75px" });},2500);
+//    $(window).scroll(function(){
+//        clearTimeout(launchTimeout);
+//    });
 
 });
 

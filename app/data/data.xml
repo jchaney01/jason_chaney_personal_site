@@ -2,7 +2,7 @@
 <!--This XML file contains all the copy for the site. Edit as needed.-->
 <root>
     <meta>
-        <title>Jason Chaney | Professional Web Application Development</title>
+        <title>Jason Chaney | Professional Web Development</title>
     </meta>
     <intro>I am a seasoned web developer that adheres to the highest level of semantic standards and architectures. I
         have over 13 years of cutting-edge experience working for agencies, direct clients, companies and individuals.
@@ -257,129 +257,125 @@
             <sample>
                 <title>Skype Stay Together</title>
                 <client>Uncorked Studios / Microsoft</client>
-                <image>img/source_art/skype_stay_together.png</image>
+                <image>img/work/full/skype_stay_together.jpg</image>
                 <thumb>img/work/thumbs/skype_stay_together.jpg</thumb>
-                <description>FPO Description</description>
+                <description>I was one of two frontend developers for this Wordpress
+                    responsive site which allowed users to read user-submitted stories as well as view those stories geographically.
+                    This image shows the primary responsive touch desktop slider for all media on the story pages.</description>
                 <category>responsive</category>
             </sample>
             <sample>
                 <title>Skype Stay Together</title>
                 <client>Uncorked Studios / Microsoft</client>
-                <image>img/source_art/skype_stay_together2.png</image>
+                <image>img/work/full/skype_stay_together2.jpg</image>
                 <thumb>img/work/thumbs/skype_stay_together2.jpg</thumb>
-                <description>FPO Description</description>
+                <description>I was one of two frontend developers for this Wordpress
+                    responsive site which allowed users to read user-submitted stories as well as view those stories geographically.
+                    This image shows the primary responsive touch mobile slider for all media on the story pages.</description>
                 <category>responsive</category>
             </sample>
             <sample>
                 <title>Hawaii Here</title>
                 <client>Tenfour / Hawaiian Airlines</client>
-                <image>img/source_art/hawaii_here.png</image>
+                <image>img/work/full/hawaii_here.jpg</image>
                 <thumb>img/work/thumbs/hawaii_here.jpg</thumb>
-                <description>FPO Description</description>
+                <description>I was the frontend developer for this jQuery Mobile Ruby on Rails project.  The mobile web app allows users to view places of interest based on their location as well as view their Hawaiian Airlines account.</description>
                 <category>mobile</category>
             </sample>
             <sample>
                 <title>Hawaii Here</title>
                 <client>Tenfour / Hawaiian Airlines</client>
-                <image>img/source_art/hawaii_here2.png</image>
+                <image>img/work/full/hawaii_here2.jpg</image>
                 <thumb>img/work/thumbs/hawaii_here2.jpg</thumb>
-                <description>FPO Description</description>
-                <category>mobile</category>
-            </sample>
-            <sample>
-                <title>Hawaii Here</title>
-                <client>Tenfour / Hawaiian Airlines</client>
-                <image>img/source_art/hawaii_here2.png</image>
-                <thumb>img/work/thumbs/hawaii_here2.jpg</thumb>
-                <description>FPO Description</description>
+                <description>I was the frontend developer for this jQuery Mobile Ruby on Rails project.  The mobile web app allows users to view places of interest based on their location as well as view their Hawaiian Airlines account.</description>
                 <category>mobile</category>
             </sample>
             <sample>
                 <title>DIRECTV Goes to School</title>
                 <client>DIRECTV</client>
-                <image>img/source_art/DIRECTV_Goes_to_School.png</image>
+                <image>img/work/full/DIRECTV_Goes_to_School.jpg</image>
                 <thumb>img/work/thumbs/DIRECTV_Goes_to_School.jpg</thumb>
-                <description>FPO Description</description>
+                <description>I was the sole developer on this site which allows DIRECTV School Program customers to renew and monitor subscription and fundraiser information.</description>
                 <category>website</category>
             </sample>
             <sample>
                 <title>DIRECTV Goes to School</title>
                 <client>DIRECTV</client>
-                <image>img/source_art/DIRECTV_Goes_to_School2.png</image>
+                <image>img/work/full/DIRECTV_Goes_to_School2.jpg</image>
                 <thumb>img/work/thumbs/DIRECTV_Goes_to_School2.jpg</thumb>
-                <description>FPO Description</description>
+                <description>I was the sole developer on this site which allows DIRECTV School Program customers to renew and monitor subscription and fundraiser information.</description>
                 <category>website</category>
             </sample>
             <sample>
                 <title>IHG</title>
                 <client>IHG / XPLANE</client>
-                <image>img/source_art/IHG.png</image>
+                <image>img/work/full/IHG.jpg</image>
                 <thumb>img/work/thumbs/IHG.jpg</thumb>
-                <description>FPO Description</description>
+                <description>International Hotels Group was using an elaborate Excel file to calculate their OTA dependencies.  I converted the calculation tool to a web application complete with animated visuals of the calculation result.</description>
                 <category>app</category>
             </sample>
             <sample>
                 <title>Lord of the Rings</title>
                 <client>Warner Bros. / The Ant Farm</client>
-                <image>img/source_art/Lord_of_the_Rings.png</image>
+                <image>img/work/full/Lord_of_the_Rings.jpg</image>
                 <thumb>img/work/thumbs/Lord_of_the_Rings.jpg</thumb>
-                <description>FPO Description</description>
+                <description>This Flash site for the Home Entertainment release of the film uses 3D rendered videos to play various trailers.</description>
                 <category>website</category>
             </sample>
             <sample>
                 <title>Shrek</title>
                 <client>Warner Bros. / The Ant Farm</client>
-                <image>img/source_art/Shrek.png</image>
+                <image>img/work/full/Shrek.jpg</image>
                 <thumb>img/work/thumbs/Shrek.jpg</thumb>
-                <description>FPO Description</description>
+                <description>This Flash puzzle app was used to promote the upcoming release of the film.</description>
                 <category>app</category>
             </sample>
             <sample>
                 <title>Sodexo</title>
                 <client>Sodexo / XPLANE</client>
-                <image>img/source_art/Sodexo.png</image>
+                <image>img/work/full/Sodexo.jpg</image>
                 <thumb>img/work/thumbs/Sodexo.jpg</thumb>
-                <description>FPO Description</description>
+                <description>This Flash exploratory app walks the user though the Sodexo service offerings.</description>
                 <category>app</category>
             </sample>
             <sample>
                 <title>T-Mobile</title>
                 <client>T-Mobile / XPLANE</client>
-                <image>img/source_art/t-mobile.png</image>
+                <image>img/work/full/t-mobile.jpg</image>
                 <thumb>img/work/thumbs/t-mobile.jpg</thumb>
-                <description>FPO Description</description>
+                <description>This app for T-Mobile was used by in-store employees to showcase how T-Mobile and the Galaxy Tab can enhance user's lives by showcasing real world uses.</description>
                 <category>app</category>
             </sample>
             <sample>
                 <title>The OC</title>
                 <client>Fox / Creative Asylum</client>
-                <image>img/source_art/the_oc.png</image>
+                <image>img/work/full/the_oc.jpg</image>
                 <thumb>img/work/thumbs/the_oc.jpg</thumb>
-                <description>FPO Description</description>
+                <description>This FLash site was created for the Home Entertainment release of the film.</description>
                 <category>website</category>
             </sample>
             <sample>
                 <title>Trick r' Treat</title>
                 <client>Warner Bros / The Ant Farm</client>
-                <image>img/source_art/Trick-r-Treat.png</image>
+                <image>img/work/full/Trick-r-Treat.jpg</image>
                 <thumb>img/work/thumbs/Trick-r-Treat.jpg</thumb>
-                <description>FPO Description</description>
+                <description>This FLash site was created for the Home Entertainment release of the film.</description>
                 <category>website</category>
             </sample>
             <sample>
                 <title>Trap.it</title>
                 <client>Trap.it / Uncorked Studios</client>
-                <image>img/source_art/trapit.png</image>
+                <image>img/work/full/trapit.jpg</image>
                 <thumb>img/work/thumbs/trapit.jpg</thumb>
-                <description>FPO Description</description>
+                <description>I was one of two NodeJS developers for the Trap.it website.</description>
                 <category>website</category>
             </sample>
             <sample>
                 <title>Stratos</title>
                 <client>Red Bull / Instrument</client>
-                <image>img/source_art/stratos.png</image>
+                <image>img/work/full/stratos.jpg</image>
                 <thumb>img/work/thumbs/stratos.jpg</thumb>
-                <description>FPO Description</description>
+                <description>I created this responsive SPA which details the story of Red Bull's Stratos - The highest jump on record.</description>
                 <category>website</category>
             </sample>
         </samples>

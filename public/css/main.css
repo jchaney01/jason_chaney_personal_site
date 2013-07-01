@@ -1,0 +1,65 @@
+/*
+Syntax error: File to import not found or unreadable: settings.
+              Load paths:
+                /Volumes/Projects/jason_personal/client/scss
+                /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets
+                /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/breakpoint-2.0.5/stylesheets
+                /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/singularitygs-1.0.8/stylesheets
+                /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-blend-modes-0.0.2/stylesheets
+                /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/color-schemer-0.2.5/stylesheets
+                /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/toolkit-1.1.1/stylesheets
+                Compass::SpriteImporter
+        on line 3 of /Volumes/Projects/jason_personal/client/scss/main.scss
+
+1: /Volumes/Projects/jason_personal/client/scss/main.scss
+
+Backtrace:
+/Volumes/Projects/jason_personal/client/scss/main.scss:3
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/import_node.rb:45:in `import'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/perform.rb:218:in `visit_import'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/tree/root_node.rb:20:in `render'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.3.0.alpha.134/lib/sass/engine.rb:265:in `render'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/bin/compass:44:in `call'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/bin/compass:23:in `load'
+/Users/jason/.rvm/gems/ruby-1.9.3-p286/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: settings.\A               Load paths:\A                 /Volumes/Projects/jason_personal/client/scss\A                 /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/breakpoint-2.0.5/stylesheets\A                 /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/singularitygs-1.0.8/stylesheets\A                 /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/compass-blend-modes-0.0.2/stylesheets\A                 /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/color-schemer-0.2.5/stylesheets\A                 /Users/jason/.rvm/gems/ruby-1.9.3-p286/gems/toolkit-1.1.1/stylesheets\A                 Compass::SpriteImporter\A         on line 3 of /Volumes/Projects/jason_personal/client/scss/main.scss\A \A 1: /Volumes/Projects/jason_personal/client/scss/main.scss"; }

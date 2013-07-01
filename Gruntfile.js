@@ -24,7 +24,9 @@ module.exports = function (grunt) {
             ]},
         img: {
 
-           src: 'public/img'
+            task4: {
+                src: 'public/img'
+            }
 
         },
         concat:{
@@ -34,13 +36,15 @@ module.exports = function (grunt) {
             all:{
                 src:[
                     'client/components/jquery/jquery.js',
+                    'client/components/jquery.lazyload/jquery.lazyload.js',
                     'client/js/bootstrap.min.js',
                     'client/js/supersized.3.2.7.min.js',
                     'client/js/waypoints.js',
                     'client/js/waypoints-sticky.js',
                     'client/js/jquery.isotope.js',
-                    'client/js/jquery.fancybox.pack.js',
-                    'client/js/jquery.fancybox-media.js',
+                    //'client/js/jquery.fancybox.pack.js',
+                    //'client/js/jquery.fancybox-media.js',
+                    'client/components/magnific-popup/dist/jquery.magnific-popup.js',
                     'client/js/jquery.tweet.js',
                     'client/js/plugins.js',
                     'client/js/main.js'
@@ -87,9 +91,15 @@ module.exports = function (grunt) {
             }
         },
         compass: {
-            dist: {
+            production: {
                 options: {
                     config: 'config.rb',
+                    force: true
+                }
+            },
+            development: {
+                options: {
+                    config: 'config-dev.rb',
                     force: true
                 }
             }
@@ -130,9 +140,11 @@ module.exports = function (grunt) {
 
     // production is on CA MT VE
     grunt.registerTask('deploy', [
-        'img',
-        'compass',
+        'compass:production',
         'uglify',
+        'rsync:deploy-production'
+    ]);
+    grunt.registerTask('deploy-direct', [
         'rsync:deploy-production'
     ]);
 };

@@ -19,7 +19,7 @@
     <meta name="description" content="Mobile web application development"/>
 
     <!-- Mobile Specifics -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="HandheldFriendly" content="true"/>
     <meta name="MobileOptimized" content="320"/>
 
@@ -89,7 +89,7 @@
                 <li><a href="#work">{{$data->portfolio->title}}</a></li>
                 <li><a href="#about">{{$data->about->title}}</a></li>
                 <li><a href="#process">{{$data->process->title}}</a></li>
-                <li><a target="_blank" href="{{URL::route('resume')}}" class="external">Resume</a></li>
+                <li><a href="{{URL::route('resume')}}" class="external">Resume</a></li>
                 <li><a href="#contact">{{$data->contact->title}}</a></li>
             </ul>
         </nav>
@@ -142,12 +142,12 @@
 
                             @foreach(get_object_vars($data->portfolio->samples)['sample'] as $sample)
                             <li class="item-thumbs span3 {{$sample->category}}">
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="{{$sample->title}}"
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="{{$sample->title}} | {{$sample->client}}"
                                    href="{{URL::asset($sample->image)}}">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-search"></span>
                                 </a>
-                                <img src="{{URL::asset($sample->thumb)}}" alt="{{$sample->client}}">
+                                <img src="{{URL::asset($sample->thumb)}}" alt="{{$sample->description}}">
                             </li>
                             @endforeach
 
@@ -238,6 +238,7 @@
             <!-- End Profile -->
 
         </div>
+
         <!-- End People -->
     </div>
 </div>
@@ -252,7 +253,7 @@
                     brings in projects on time and on budget. I am constantly amazed at the ideas he generates and his
                     ability to execute them as well. I would highly recommend him and the Creative Acceleration team.</p>
                 <div class="author">Brian Glassford, Emergent Productions</div>
-                <a href="http://www.linkedin.com/in/jchaney01/" target="_blank"><span class="font-icon-blockquote"></span></a>
+                <span class="font-icon-blockquote"></span>
             </div>
         </div>
     </div>
@@ -277,6 +278,7 @@
         </div>
     </div>
 </div>
+
 <!-- End Title Page -->
 
 <div class="row margin-40">
@@ -327,6 +329,11 @@
         </div>
     </div>
 </div>
+    <div class="row">
+        <div class="span12" style="text-align: center">
+            <a href="{{URL::route('resume')}}" class="button">Resume</a>
+        </div>
+    </div>
 <!-- End Services Boxes -->
 
 </div>
@@ -448,6 +455,9 @@
                                target="_blank"><span class="icon-youtube-sign"></span></a></li>
                     </ul>
                 </nav>
+
+
+
             </div>
         </div>
     </div>
@@ -456,7 +466,7 @@
 
 <!-- Footer -->
 <footer>
-    <p class="credits">&copy;{{Date("Y")}} Jason Chaney<br>I built this site with <a href="http://laravel.com/">Laravel</a> and <a href="http://twitter.github.io/bootstrap/">Bootstrap</a></p>
+    <p class="credits">&copy;{{Date("Y")}} Jason Chaney<br>Built with <a href="http://laravel.com/">Laravel</a> and <a href="http://twitter.github.io/bootstrap/">Bootstrap</a></p>
 </footer>
 <!-- End Footer -->
 
