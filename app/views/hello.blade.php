@@ -142,12 +142,12 @@
 
                             @foreach(get_object_vars($data->portfolio->samples)['sample'] as $sample)
                             <li class="item-thumbs span3 {{$sample->category}}">
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="{{$sample->title}} | {{$sample->client}}"
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" alt="{{$sample->description}}" title="{{$sample->title}} | {{$sample->client}}"
                                    href="{{URL::asset($sample->image)}}">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-search"></span>
                                 </a>
-                                <img src="{{URL::asset($sample->thumb)}}" alt="{{$sample->description}}">
+                                <img src="{{URL::asset($sample->thumb)}}">
                             </li>
                             @endforeach
 
@@ -477,7 +477,7 @@
 <!-- End Back to Top -->
 
 <!-- Js -->
-<script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
 <!-- Google Map API -->
 <script src="{{URL::asset('js/app.js')}}"></script>
 <!-- Default JS -->

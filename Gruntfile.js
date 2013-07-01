@@ -45,6 +45,7 @@ module.exports = function (grunt) {
                     //'client/js/jquery.fancybox.pack.js',
                     //'client/js/jquery.fancybox-media.js',
                     'client/components/magnific-popup/dist/jquery.magnific-popup.js',
+                    'client/components/jquery-placeholder/jquery.placeholder.js',
                     'client/js/jquery.tweet.js',
                     'client/js/plugins.js',
                     'client/js/main.js'

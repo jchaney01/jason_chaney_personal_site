@@ -351,6 +351,7 @@ h3.spec {
 #home-slider #slidecaption {
 	float: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135);
     @include breakpoint(tweenScreen){
       text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
     }

@@ -447,18 +447,36 @@ button::-moz-focus-inner {
     cursor: auto;
   }
   .mfp-title {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    font-weight:bold;
+    @include breakpoint(tweenScreen){
+      font-size: 16px;
+    }
+    @include breakpoint(smallDesktopScreen){
+      font-size: 20px;
+    }
     text-align: left;
-    line-height: 18px;
+    line-height: 22px;
     color: $caption-title-color;
     word-break: break-word;
     padding-right: 36px; // leave some space for counter at right side
   }
 
   .mfp-figure small {
-    color: $caption-subtitle-color;
+    color: #ffffff;
     display: block;
     font-size: 12px;
-    line-height: 14px;
+    font-weight: normal;
+    line-height: 13px;
+    @include breakpoint(tweenScreen){
+      font-size: 14px;
+      line-height: 16px;
+    }
+    @include breakpoint(smallDesktopScreen){
+      font-size: 17px;
+      line-height: 20px;
+    }
   }
   .mfp-image-holder .mfp-content {
     max-width: 100%;
@@ -576,4 +594,39 @@ button::-moz-focus-inner {
       padding-top: 0;
     }
   }
+}
+
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
 }

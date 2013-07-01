@@ -464,8 +464,6 @@ $(document).ready(function(){
 	});
 
 
-
-
     CHAKRA.nav();
 	CHAKRA.mobileNav();
 	CHAKRA.listenerMenu();
@@ -482,22 +480,47 @@ $(document).ready(function(){
 	CHAKRA.toggle();
 	CHAKRA.toolTip();
 	CHAKRA.map();
+    $('input, textarea').placeholder();
+    $('#thumbs').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
+        image: {
+            markup: '<div class="mfp-figure">'+
+                '<div class="mfp-close"></div>'+
+                '<div class="mfp-img"></div>'+
+                '<div class="mfp-bottom-bar">'+
+                '<div class="mfp-title"></div>'+
+                '<div class="mfp-counter"></div>'+
+                '</div>'+
+                '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
 
+            cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
 
-    $('.fancybox').magnificPopup({
-        type: 'image'
+            titleSrc: function(item) {
+               return item.el.attr('title') + '<small>'+item.el.attr('alt')+'</small>';
+            },
+
+            verticalGap:88,
+
+            verticalFit: true, // Fits image in area vertically
+
+            tError: '<a href="%url%">The image</a> could not be loaded.' // Error message
+        },
+        gallery: {
+            enabled: true, // set to true to enable gallery
+
+            preload: [1,2], // read about this option in next Lazy-loading section
+
+            navigateByImgClick: true,
+
+            arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+
+            tPrev: 'Previous (Left arrow key)', // title for left button
+            tNext: 'Next (Right arrow key)' // title for right button
+        }
     });
-
-
-//    $("img.lazy").lazyload({
-//        effect : "fadeIn"
-//    });
-
-    //var launchTimeout = setTimeout(function(){$("html, body").animate({ scrollTop: "75px" });},2500);
-//    $(window).scroll(function(){
-//        clearTimeout(launchTimeout);
-//    });
-
 });
 
 $(window).resize(function(){
