@@ -396,13 +396,60 @@
                 Uncorked Studios
             </location>
             <position>
-                Senior Front-end Developer
+                Contract Front-end Developer
             </position>
             <dates>
-                2013 to Present
+                3/2013 to 7/2013
             </dates>
             <functions>
-                <function>Develop NodeJS blah blah</function>
+                <function>Developed Node.js/MongoDB, PHP and Wordpress mobile-web applications.</function>
+                <function>Automate deployment workflows</function>
+                <function>Develop complex responsive sites for global brands</function>
+                <function>Interface with native iOS developers to ensure application consistency and performance</function>
+                <function>Cross-device/browser debugging</function>
+            </functions>
+        </experience>
+        <experience>
+            <location>Tenfour Agency</location>
+            <position>Senior Frontend Developer</position>
+            <dates>2012 to 2013</dates>
+            <functions>
+                <function>
+                    Worked with other developers to create mobile web applications that integrate with a variety of social and 3rd-party APIs.
+                </function>
+                <function>Develop modern cross-browser responsive layouts with an emphasis on mobile UX</function>
+                <function>Interfaced with UX and design leads to implement technical optimizations</function>
+                <function>Create custom CMS tools for data population and consumption</function>
+            </functions>
+        </experience>
+        <experience>
+            <location><![CDATA[Dachis Group &mdash; acquired XPLANE]]></location>
+            <position>Technologist</position>
+            <dates>2011 t0 2012</dates>
+            <functions>
+                <function>Developed social and web apps for global brands mainly in LAMP and Ruby environments</function>
+                <function>Optimized development process by automating project life-cycle workflow tools</function>
+                <function>Converted Flash applications to HTML5/CSS/JS equivalents</function>
+                <function>Led development teams on larger engagements ensuring progress and quality milestones were met</function>
+                <function>Scoped interactive projects for quick-turn RFP responses</function>
+                <function>Technical liaison between Project Managers and Account Managers</function>
+            </functions>
+        </experience>
+        <experience>
+            <location>XPLANE</location>
+            <position>Technologist</position>
+            <dates>2009 to 2011</dates>
+            <functions>
+                <function>Developed desktop web and tablet web apps for international clients mainly in a LAMP environment</function>
+                <function>Architect for new client delivery platform with web services integration</function>
+                <function>Developed custom CMS as well as Wordpress interactive projects</function>
+                <function>Interfaced with native mobile developers and designers to ensure technical and nontechnical QA
+                    requirements were being met
+                </function>
+                <function>Established an in-house development team</function>
+                <function>Technology lead on all interactive projects</function>
+                <function>Performed all Linux, font and Git server administration</function>
+                <function>Wrote technical documentation for clients and staff</function>
             </functions>
         </experience>
     </experiences>

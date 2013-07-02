@@ -37,11 +37,11 @@
         <h2>Senior Frontend Developer<br>(2013 to 7/15/13) Uncorked Studios</h2>
 
         <ul>
-            <li>Develop Node.js/MongoDB, PHP and Wordpress mobile-web applicaitons.</li>
+            <li>Develop Node.js/MongoDB, PHP and Wordpress mobile-web applications.</li>
             <li>Automate deployment workflows</li>
             <li>Develop complex responsive sites for global brands</li>
             <li>Interface with native iOS developers to ensure application consistency and performance</li>
-            <li>Cross-device/browwser debugging</li>
+            <li>Cross-device/browser debugging</li>
         </ul>
 
         <h2>Senior Frontend Developer<br>(2012 to 2013) Tenfour Agency</h2>
