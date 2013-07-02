@@ -35,7 +35,7 @@
                 <a target="_blank" href="http://en.wikipedia.org/wiki/Object-oriented_programming">OOP</a>
                 semantic standards. I enjoy keeping up with bleeding-edge tools, techniques and new technologies.
                 Check out
-                my process to hear how.
+                <a href="#process">my process</a> to hear how.
             </p>
             ]]>
         </body>
@@ -251,7 +251,11 @@
         <title>My Kung Fu</title>
         <subtitle>These are for you.</subtitle>
         <body>
-            Here's some examples of projects I've had the privilege of working on for various clients.
+            <![CDATA[
+            Here's some examples of projects I've had the privilege of working on for various clients.  My
+            <a href="/resume">r&eacute;sum&eacute;</a>
+            contains live URLs.
+            ]]>
         </body>
         <samples>
             <sample>
