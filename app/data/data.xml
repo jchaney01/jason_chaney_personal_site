@@ -452,6 +452,21 @@
                 <function>Wrote technical documentation for clients and staff</function>
             </functions>
         </experience>
+        <experience>
+            <location>Creative Acceleration, Inc.</location>
+            <position>Freelance Front-End
+                Developer</position>
+            <dates>2004 to present</dates>
+            <functions>
+                <function>Work directly with entertainment clients to establish scope and technical requirements</function>
+                <function>Create functional sites from PSD comps</function>
+                <function>Establish Git and Issue tracking workflows</function>
+                <function>Interface with designers to ensure technical feasibility</function>
+                <function>Debug Javascript, PHP and CSS issues</function>
+                <function>Linux server administration for client servers</function>
+                <function>Develop web apps for national brands using HTML5, CSS3, Javascript and PHP/MySQL</function>
+            </functions>
+        </experience>
     </experiences>
     <skills>
         
