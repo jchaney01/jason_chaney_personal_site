@@ -50,7 +50,7 @@
                     <![CDATA[
                     I have two beautiful twin
                     <a href="http://meetthechaneys.com/wp/wp-content/uploads/20130522-184111.jpg" target="_blank">daughters</a>
-                    that keep my wife and I on our toes. We keep a family
+                    that keep my wife and me on our toes. We keep a family
                     <a href="http://meetthechaneys.com" target="_blank">blog</a>
                     for
                     friends and family to keep up with the Chaney's
@@ -168,7 +168,8 @@
 
                     if <a href="http://danbarber.me/using-git-for-deployment/" target="_blank">Git deployment</a>
                      is unavailable.  If <a href="http://en.wikipedia.org/wiki/Rsync" target="_blank">Rsync</a> is at least an option, I'll use
-                    <a href="https://github.com/jedrichards/grunt-rsync" target="_blank">grunt-rsync</a> so I can automate deployment as part of my build process]]>.
+                    <a href="https://github.com/jedrichards/grunt-rsync" target="_blank">grunt-rsync</a> so I can automate deployment as part of my build process]]>
+                    .
                 </body>
             </point>
             <point>
@@ -264,8 +265,10 @@
                 <image>img/work/full/skype_stay_together.jpg</image>
                 <thumb>img/work/thumbs/skype_stay_together.jpg</thumb>
                 <description>I was one of two Front-end developers for this Wordpress
-                    responsive site which allowed users to read submitted stories as well as view those stories geographically.
-                    This image shows the primary responsive touch desktop slider for all media on the story pages.</description>
+                    responsive site which allowed users to read submitted stories as well as view those stories
+                    geographically.
+                    This image shows the primary responsive touch desktop slider for all media on the story pages.
+                </description>
                 <category>responsive</category>
             </sample>
             <sample>
@@ -273,7 +276,10 @@
                 <client>Uncorked Studios / Microsoft</client>
                 <image>img/work/full/skype_stay_together2.jpg</image>
                 <thumb>img/work/thumbs/skype_stay_together2.jpg</thumb>
-                <description>This image shows the same UI as the previous screen shot.  Notice how the functionality is tailored specifically to mobile devices.  The site included the ability to view your Facebook friend locations on a map.</description>
+                <description>This image shows the same UI as the previous screen shot. Notice how the functionality is
+                    tailored specifically to mobile devices. The site included the ability to view your Facebook friend
+                    locations on a map.
+                </description>
                 <category>responsive</category>
             </sample>
             <sample>
@@ -281,7 +287,10 @@
                 <client>Tenfour / Hawaiian Airlines</client>
                 <image>img/work/full/hawaii_here.jpg</image>
                 <thumb>img/work/thumbs/hawaii_here.jpg</thumb>
-                <description>I was the Front-end developer for this jQuery Mobile Ruby on Rails project.  The mobile web app allows users to view places of interest based on their location as well as view their Hawaiian Airlines account.</description>
+                <description>I was the Front-end developer for this jQuery Mobile Ruby on Rails project. The mobile web
+                    app allows users to view places of interest based on their location as well as view their Hawaiian
+                    Airlines account.
+                </description>
                 <category>mobile</category>
             </sample>
             <sample>
@@ -289,7 +298,9 @@
                 <client>Tenfour / Hawaiian Airlines</client>
                 <image>img/work/full/hawaii_here2.jpg</image>
                 <thumb>img/work/thumbs/hawaii_here2.jpg</thumb>
-                <description>This screen shot shows the same project as the previous, but this is showing local POI's relative to the user's physical location.</description>
+                <description>This screen shot shows the same project as the previous, but this is showing local POI's
+                    relative to the user's physical location.
+                </description>
                 <category>mobile</category>
             </sample>
             <sample>
@@ -297,7 +308,9 @@
                 <client>DIRECTV</client>
                 <image>img/work/full/DIRECTV_Goes_to_School.jpg</image>
                 <thumb>img/work/thumbs/DIRECTV_Goes_to_School.jpg</thumb>
-                <description>I was the sole developer on this site which allows DIRECTV School Program customers to renew and monitor subscription and fundraiser information.</description>
+                <description>I was the sole developer on this site which allows DIRECTV School Program customers to
+                    renew and monitor subscription and fundraiser information.
+                </description>
                 <category>website</category>
             </sample>
             <sample>
@@ -305,7 +318,9 @@
                 <client>DIRECTV</client>
                 <image>img/work/full/DIRECTV_Goes_to_School2.jpg</image>
                 <thumb>img/work/thumbs/DIRECTV_Goes_to_School2.jpg</thumb>
-                <description>This DIRECTV project also provided media download resources for school fundraiser efforts.</description>
+                <description>This DIRECTV project also provided media download resources for school fundraiser
+                    efforts.
+                </description>
                 <category>website</category>
             </sample>
             <sample>
@@ -313,7 +328,10 @@
                 <client>IHG / XPLANE</client>
                 <image>img/work/full/IHG.jpg</image>
                 <thumb>img/work/thumbs/IHG.jpg</thumb>
-                <description>International Hotels Group was using an elaborate Excel file to calculate their OTA dependencies.  I converted the calculation tool to a web application complete with animated visuals of the calculation result.</description>
+                <description>International Hotels Group was using an elaborate Excel file to calculate their OTA
+                    dependencies. I converted the calculation tool to a web application complete with animated visuals
+                    of the calculation result.
+                </description>
                 <category>app</category>
             </sample>
             <sample>
@@ -321,7 +339,9 @@
                 <client>Warner Bros. / The Ant Farm</client>
                 <image>img/work/full/Lord_of_the_Rings.jpg</image>
                 <thumb>img/work/thumbs/Lord_of_the_Rings.jpg</thumb>
-                <description>This Flash site for the Home Entertainment release of the film uses 3D rendered videos to play various trailers.</description>
+                <description>This Flash site for the Home Entertainment release of the film uses 3D rendered videos to
+                    play various trailers.
+                </description>
                 <category>website</category>
             </sample>
             <sample>
@@ -337,7 +357,8 @@
                 <client>Sodexo / XPLANE</client>
                 <image>img/work/full/Sodexo.jpg</image>
                 <thumb>img/work/thumbs/Sodexo.jpg</thumb>
-                <description>This Flash exploratory app walks the user though the Sodexo service offerings.</description>
+                <description>This Flash exploratory app walks the user though the Sodexo service offerings.
+                </description>
                 <category>app</category>
             </sample>
             <sample>
@@ -345,7 +366,9 @@
                 <client>The Church at Rocky Peak</client>
                 <image>img/work/full/essentials.jpg</image>
                 <thumb>img/work/thumbs/essentials.jpg</thumb>
-                <description>This site was created to allow members to view and download video and audio courses.  The site is powered by Amazon's S3.</description>
+                <description>This site was created to allow members to view and download video and audio courses. The
+                    site is powered by Amazon's S3.
+                </description>
                 <category>app</category>
             </sample>
             <sample>
@@ -353,7 +376,9 @@
                 <client>T-Mobile / XPLANE</client>
                 <image>img/work/full/t-mobile.jpg</image>
                 <thumb>img/work/thumbs/t-mobile.jpg</thumb>
-                <description>This app for T-Mobile was used by in-store employees to showcase how T-Mobile and the Galaxy Tab can enhance user's lives by showcasing real world uses.</description>
+                <description>This app for T-Mobile was used by in-store employees to showcase how T-Mobile and the
+                    Galaxy Tab can enhance user's lives by showcasing real world uses.
+                </description>
                 <category>app</category>
             </sample>
             <sample>
@@ -361,7 +386,8 @@
                 <client>Fox / Creative Asylum</client>
                 <image>img/work/full/the_oc.jpg</image>
                 <thumb>img/work/thumbs/the_oc.jpg</thumb>
-                <description>This Flash site was created for the Home Entertainment release of the series on DVD.</description>
+                <description>This Flash site was created for the Home Entertainment release of the series on DVD.
+                </description>
                 <category>website</category>
             </sample>
             <sample>
@@ -385,7 +411,9 @@
                 <client>Red Bull / Instrument</client>
                 <image>img/work/full/stratos.jpg</image>
                 <thumb>img/work/thumbs/stratos.jpg</thumb>
-                <description>I created this responsive SPA which details the story of Red Bull's Stratos - The highest jump on record.</description>
+                <description>I created this responsive SPA which details the story of Red Bull's Stratos - The highest
+                    jump on record.
+                </description>
                 <category>website</category>
             </sample>
         </samples>
@@ -405,7 +433,8 @@
                 <function>Developed Node.js/MongoDB, PHP and Wordpress mobile-web applications.</function>
                 <function>Automate deployment workflows</function>
                 <function>Develop complex responsive sites for global brands</function>
-                <function>Interface with native iOS developers to ensure application consistency and performance</function>
+                <function>Interface with native iOS developers to ensure application consistency and performance
+                </function>
                 <function>Cross-device/browser debugging</function>
             </functions>
         </experience>
@@ -415,7 +444,8 @@
             <dates>2012 to 2013</dates>
             <functions>
                 <function>
-                    Worked with other developers to create mobile web applications that integrate with a variety of social and 3rd-party APIs.
+                    Worked with other developers to create mobile web applications that integrate with a variety of
+                    social and 3rd-party APIs.
                 </function>
                 <function>Develop modern cross-browser responsive layouts with an emphasis on mobile UX</function>
                 <function>Interfaced with UX and design leads to implement technical optimizations</function>
@@ -427,10 +457,13 @@
             <position>Technologist</position>
             <dates>2011 t0 2012</dates>
             <functions>
-                <function>Developed social and web apps for global brands mainly in LAMP and Ruby environments</function>
+                <function>Developed social and web apps for global brands mainly in LAMP and Ruby environments
+                </function>
                 <function>Optimized development process by automating project life-cycle workflow tools</function>
                 <function>Converted Flash applications to HTML5/CSS/JS equivalents</function>
-                <function>Led development teams on larger engagements ensuring progress and quality milestones were met</function>
+                <function>Led development teams on larger engagements ensuring progress and quality milestones were
+                    met
+                </function>
                 <function>Scoped interactive projects for quick-turn RFP responses</function>
                 <function>Technical liaison between Project Managers and Account Managers</function>
             </functions>
@@ -440,7 +473,9 @@
             <position>Technologist</position>
             <dates>2009 to 2011</dates>
             <functions>
-                <function>Developed desktop web and tablet web apps for international clients mainly in a LAMP environment</function>
+                <function>Developed desktop web and tablet web apps for international clients mainly in a LAMP
+                    environment
+                </function>
                 <function>Architect for new client delivery platform with web services integration</function>
                 <function>Developed custom CMS as well as Wordpress interactive projects</function>
                 <function>Interfaced with native mobile developers and designers to ensure technical and nontechnical QA
@@ -455,10 +490,12 @@
         <experience>
             <location>Creative Acceleration, Inc.</location>
             <position>Freelance Front-End
-                Developer</position>
+                Developer
+            </position>
             <dates>2004 to present</dates>
             <functions>
-                <function>Work directly with entertainment clients to establish scope and technical requirements</function>
+                <function>Work directly with entertainment clients to establish scope and technical requirements
+                </function>
                 <function>Create functional sites from PSD comps</function>
                 <function>Establish Git and Issue tracking workflows</function>
                 <function>Interface with designers to ensure technical feasibility</function>
@@ -469,12 +506,19 @@
         </experience>
     </experiences>
     <skills>
-        
+        <![CDATA[
+        Expert proficiency with the LAMP stack as well as JavaScript (including NodeJS/Backbone), Grunt and CSS. I'm
+        fluent with Git (including hooks), CSS3 (including precompilers Sass/LESS w/ compass and responsive layouts with
+        animation), native HTML5 APIs, jQuery Mobile, Markdown, cross-browser IE nonsense, Apache/Nginx configuration, dynamic JS module loading,
+        agile workflows, reflow optimizations and social APIs. Some familiarity with Objective-C (iOS SDK 5-6),
+        Appcelerator (similar to PhoneGap), Wordpress, Drupal, Ruby/Rails, Sinatra and Heroku.
+        ]]>
     </skills>
     <quotes>
         <quote>
-            <body></body>
-            <author></author>
+            <body>@jchaney01 Thanks for the GREAT git/tower tutorial on YouTube! Many 'light bulb' moments for me.
+            </body>
+            <author>Edward Alton via Twitter</author>
             <source></source>
         </quote>
     </quotes>
