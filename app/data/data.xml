@@ -140,6 +140,24 @@
         </asside>
         <points>
             <point>
+                <headline>JavaScript</headline>
+                <body>
+                    <![CDATA[
+                    Most developers are going to say they know JavaScript but since JavaScript is a separate art in
+                    it's
+                    own right, I encourage prospective clients to really understand the level that someone
+                    knows
+                    JavaScript. I don't simply modify JavaScript libraries or use a DOM manipulation tool like JQuery. I write
+                    <em>custom</em>
+                    JavaScript that follows the
+                    <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank">MVC</a>
+                    design pattern utilizing tools like <a target="_blank" href="http://angularjs.org/">Angular</a>
+                    ,
+                    <a target="_blank" href="http://documentcloud.github.com/backbone/">Backbone</a>, <a target="_blank" href="http://requirejs.org/">RequireJS</a>
+                    and <a href="http://nodejs.org/">Node</a> and <a href="http://jade-lang.com/" target="_blank">Jade</a>. When I say I know JavaScript, I really know it.]]>
+                </body>
+            </point>
+            <point>
                 <headline>Build Process</headline>
                 <body>
                     <![CDATA[
@@ -161,7 +179,7 @@
                     run their own server also use
                     <a href="https://github.com/">Github</a>, <a href="http://beanstalkapp.com/" target="_blank">Beanstalk</a>
                      or <a href="https://bitbucket.org/" target="_blank">Bitbucket</a>
-                     
+
                     which all work
                     well too. If I am stuck dealing with FTP, I'll use something like
                     <a href="https://github.com/scttnlsn/dandelion" target="_blank">Dandelion</a>
@@ -192,6 +210,25 @@
                 </body>
             </point>
             <point>
+                <headline>REST</headline>
+                <body>
+                    <![CDATA[
+                    Today's applications don't just consume data from 3rd party sources, but also need to supply data; even if it's to its own user interface.
+                    I follow strict <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a> principles so when another
+                    developer takes over my work, he/she should be able to easily understand how the application works.
+                   ]]>
+                </body>
+            </point>
+            <point>
+                <headline>Community</headline>
+                <body>
+                    <![CDATA[
+                    I love the developer community.  I provide quite a few tutorials for other developers on my YouTube channel with my <a href="http://www.youtube.com/watch?v=QWfmhuk8cAM" target="_blank">tutorial on Git</a>
+                     being especially popular.
+                   ]]>
+                </body>
+            </point>
+            <point>
                 <headline>
                     Browser testing
                 </headline>
@@ -201,33 +238,7 @@
                     I personally own most software platforms and test locally including Microsoft's Surface Pro, Android, iOS, and can emulate all desktop browsers.]]>
                 </body>
             </point>
-            <point>
-                <headline>JavaScript</headline>
-                <body>
-                    <![CDATA[
-                    Most developers are going to say they know JavaScript but since JavaScript is a separate art in
-                    it's
-                    own right, I encourage prospective clients to really understand the level that someone
-                    knows
-                    JavaScript. I don't simply modify JavaScript libraries or use a DOM manipulation tool like JQuery. I write
-                    <em>custom</em>
-                    JavaScript that follows the
-                    <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank">MVC</a>
-                    design pattern utilizing tools like
-                    <a href="http://documentcloud.github.com/backbone/">Backbone</a>, <a href="http://requirejs.org/">RequireJS</a>
-                    and <a href="http://nodejs.org/">Node</a> and <a href="http://jade-lang.com/" target="_blank">Jade</a>. When I say I know JavaScript, I really know it.]]>
-                </body>
-            </point>
-            <point>
-                <headline>REST API</headline>
-                <body>
-                    <![CDATA[
-                    Today's applications don't just consume data from 3rd party sources, but also need to supply data; even if it's to its own user interface.
-                    I follow strict <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a> principles so when another
-                    developer takes over my work, he/she should be able to easily understand how the application works.
-                   ]]>
-                </body>
-            </point>
+
             <point>
                 <headline>Testing</headline>
                 <body>
@@ -537,6 +548,7 @@
                  , <a href="http://getcomposer.org/" target="_blank">Composer</a>
                  , <a href="http://gruntjs.com/" target="_blank">Grunt</a>
                  , <a href="http://us.php.net/" target="_blank" >PHP</a>
+                 , <a href="http://angularjs.org/" target="_blank" >Angular</a>
                  , <a href="http://www.mongodb.org/" target="_blank">MongoDB</a>
                  , <a href="http://nodejs.org/" target="_blank">NodeJS</a>
                  , <a href="http://backbonejs.org/" target="_blank" >Backbone</a>, <a href="http://requirejs.org/" target="_blank">RequireJS</a>

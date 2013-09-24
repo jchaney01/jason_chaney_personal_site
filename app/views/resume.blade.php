@@ -112,7 +112,7 @@
         </ul></div>
     <div class="section"><h1 id="technical_skills"><i class="icon-beaker pull-left"></i> Technical Skills</h1>
 
-        <p>Expert proficiency with the LAMP stack as well as JavaScript (including NodeJS/Backbone), Grunt and CSS. I'm
+        <p>Expert proficiency with the LAMP stack as well as JavaScript (including NodeJS/Backbone/Angular), Grunt and CSS. I'm
             fluent
             with Git (including hooks), CSS3 (including precompilers Sass/LESS w/ compass and responsive layouts with animation), native HTML5 APIs, jQuery
             Mobile,
