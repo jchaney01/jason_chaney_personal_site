@@ -85,11 +85,11 @@
 
         <nav id="menu">
             <ul id="menu-nav">
-                <li class="current"><a href="#home-slider">Home</a></li>
                 <li><a href="#work">{{$data->portfolio->title}}</a></li>
                 <li><a href="#about">{{$data->about->title}}</a></li>
                 <li><a href="#process">{{$data->process->title}}</a></li>
                 <li><a href="{{URL::route('resume')}}" class="external">Resume</a></li>
+                <li><a href="{{URL::asset('downloads/code_samples.zip')}}" class="external">Code Samples</a></li>
                 <li><a href="#contact">{{$data->contact->title}}</a></li>
             </ul>
         </nav>
