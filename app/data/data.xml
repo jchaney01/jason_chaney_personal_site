@@ -153,8 +153,8 @@
                     <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank">MVC</a>
                     design pattern utilizing tools like <a target="_blank" href="http://angularjs.org/">Angular</a>
                     ,
-                    <a target="_blank" href="http://documentcloud.github.com/backbone/">Backbone</a>, <a target="_blank" href="http://requirejs.org/">RequireJS</a>
-                    and <a href="http://nodejs.org/">Node</a> and <a href="http://jade-lang.com/" target="_blank">Jade</a>. When I say I know JavaScript, I really know it.]]>
+                    <a target="_blank" href="http://documentcloud.github.com/backbone/">Backbone</a>, <a target="_blank" href="http://requirejs.org/">RequireJS</a>,
+                    <a href="http://nodejs.org/">Node</a> and <a href="http://jade-lang.com/" target="_blank">Jade</a>. When I say I know JavaScript, I really know it.]]>
                 </body>
             </point>
             <point>
@@ -315,14 +315,13 @@
                 <category>mobile</category>
             </sample>
             <sample>
-                <title>DIRECTV Goes to School</title>
-                <client>DIRECTV</client>
-                <image>img/work/full/DIRECTV_Goes_to_School.jpg</image>
-                <thumb>img/work/thumbs/DIRECTV_Goes_to_School.jpg</thumb>
-                <description>I was the sole developer on this site which allows DIRECTV School Program customers to
-                    renew and monitor subscription and fundraiser information.
+                <title>Biz Dev Showcase</title>
+                <client>XPLANE</client>
+                <image>img/work/full/biz_dev_showcase.png</image>
+                <thumb>img/work/thumbs/biz_dev_showcase.jpg</thumb>
+                <description>I created this application to allow business development managers to create microsites that show off collections of case studies and work samples.
                 </description>
-                <category>website</category>
+                <category>Application</category>
             </sample>
             <sample>
                 <title>DIRECTV Goes to School</title>
