@@ -2,17 +2,17 @@
 <!--This XML file contains all the copy for the site. Edit as needed.-->
 <root>
     <meta>
-        <title>Jason Chaney | Professional Web Development</title>
+        <title>Jason Chaney | Mobile Web Application Development</title>
     </meta>
     <intro>I am a seasoned web developer that adheres to the highest level of semantic standards and architectures. I
-        have over 13 years of cutting-edge experience working for agencies, direct clients, companies and individuals.
+        have 13 years of cutting-edge experience working for agencies, direct clients, companies and individuals.
         My passion is rooted in finding efficiency in digital communication though visual arts. I have experience
         leading distributed development teams, executing social campaigns, utilizing/building web services, prototyping
         new concepts, developing mobile initiatives and optimizing workflows.
     </intro>
     <about>
         <title>Who is this Guy?</title>
-        <subtitle>I'm an autodidactic full-stack front-end developer.</subtitle>
+        <subtitle>I'm an autodidactic full-stack mobile front-end developer...with 20 years experience.</subtitle>
         <culture>
             <title>
                 My Culture
@@ -22,8 +22,8 @@
                 <p>
                 The techniques, tools and architecture patterns used to create the modern web literally change
                 everyday. As a professional developer, I consider it my responsibility to constantly keep up. I
-                listen to podcasts, follow industry leaders on Twitter and collaborate with other professionals
-                daily to ensure I'm using the absolute latest resources available when project crunch time hits.</p>
+                listen to podcasts, follow industry leaders and collaborate with other professionals
+                daily to ensure I'm using the latest resources available when project crunch time hits.</p>
                 ]]>
             </body>
         </culture>
@@ -95,15 +95,14 @@
         <subtitle>If you think I can help out on a project, drop me a line.</subtitle>
         <name>Jason Chaney</name>
         <address>5120 Hill Villa Ave S</address>
-        <company>Creative Acceleration, Inc.</company>
+        <company>creativeFEW, Inc.</company>
         <city>Salem</city>
         <state>OR</state>
         <zip>97306</zip>
         <country>US</country>
         <phone>310-433-6322</phone>
         <email>
-            jason@creativeacceleration.com
-
+            jchaney@creativefew.com
         </email>
     </contact>
     <process>
@@ -117,8 +116,6 @@
                 href="http://www.adobe.com/products/dreamweaver.html" target="_blank">Dreamweaver</a>,
             another might say
             <a href="http://wordpress.org/" target="_blank">Wordpress</a>
-            or
-            <a href="http://www.squarespace.com/" target="_blank">Squarespace</a>
             and another might
             say
             <a href="http://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>
@@ -158,13 +155,23 @@
                 </body>
             </point>
             <point>
+                <headline>CSS</headline>
+                <body>
+                    <![CDATA[
+                    Again, all developers are going to say they know CSS but how many understand why and when to use an <a href="http://css-tricks.com/examples/IconFont/" target="_blank">icon-font</a>, manage high-density displays, integrate
+                     view transitions, handle gestures in the presentation layer or manage complex z-index states? I do.
+                     ]]>
+                </body>
+            </point>
+            <point>
                 <headline>Build Process</headline>
                 <body>
                     <![CDATA[
                     Web applications have grown to a complexity level that they now require more robust techniques
-                    for deployment, performance optimization and overall organization. The industry-standard tool for doing
+                    for deployment, performance optimization and overall organization. The industry-standard tools for doing
                     this is
-                    <a href="http://gruntjs.com/" target="_blank">Grunt</a>
+                    <a href="http://gruntjs.com/" target="_blank">Grunt</a> or <a href="http://gulpjs.com/" target="_blank">Gulp</a>
+                    ,
                     and I love to find
                     ever-efficient ways to use it for tasks like image compression, code compilation, linting, minifying and running automated acceptance tests.]]>
                 </body>
@@ -173,19 +180,10 @@
                 <headline>Version Control</headline>
                 <body>
                     <![CDATA[
-                    Not only do I use the <a href="http://git-scm.com/">Git version control
-                    system</a>, I also run my own Git server
-                    with <a href="https://github.com/sitaramc/gitolite">Gitolite</a>. Many people who aren't able to
-                    run their own server also use
-                    <a href="https://github.com/">Github</a>, <a href="http://beanstalkapp.com/" target="_blank">Beanstalk</a>
-                     or <a href="https://bitbucket.org/" target="_blank">Bitbucket</a>
-
-                    which all work
-                    well too. If I am stuck dealing with FTP, I'll use something like
-                    <a href="https://github.com/scttnlsn/dandelion" target="_blank">Dandelion</a>
-
-                    if <a href="http://danbarber.me/using-git-for-deployment/" target="_blank">Git deployment</a>
-                     is unavailable.  If <a href="http://en.wikipedia.org/wiki/Rsync" target="_blank">Rsync</a> is at least an option, I'll use
+                    There are only benefits to using Git so any developer that doesn't, usually hasn't worked in teams.  I understand
+                    feature branches, rebases, resolving merge conflicts, hooks, and even <a href="http://git-scm.com/docs/git-reflog" target="_blank">reflog</a>.
+                    I love <a href="http://danbarber.me/using-git-for-deployment/" target="_blank">Git deployment</a> but if I am stuck dealing with FTP, I'll use something like
+                    <a href="https://github.com/scttnlsn/dandelion" target="_blank">Dandelion</a>. If <a href="http://en.wikipedia.org/wiki/Rsync" target="_blank">Rsync</a> is at least an option, I'll use
                     <a href="https://github.com/jedrichards/grunt-rsync" target="_blank">grunt-rsync</a> so I can automate deployment as part of my build process]]>
                     .
                 </body>
@@ -271,6 +269,14 @@
         </body>
         <samples>
             <sample>
+                <title>Benchmade Customizer</title>
+                <client>Pollinate / Benchmade</client>
+                <image>img/work/full/benchmade1.jpg</image>
+                <thumb>img/work/thumbs/benchmade.jpg</thumb>
+                <description>I was the primary developer on this responsive AngularJS/HTML5 Canvas and Node application.  Users can customize all aspects of a knife including uploading their own art, custom text and blade shapes.  Customizations animate on screen using HTML5 Canvas, handles are programmatically colorized and final renders are generated with Node and sent to the engraver machines.</description>
+                <category>Application</category>
+            </sample>
+            <sample>
                 <title>Skype Stay Together</title>
                 <client>Uncorked Studios / Microsoft</client>
                 <image>img/work/full/skype_stay_together.jpg</image>
@@ -279,17 +285,6 @@
                     responsive site which allowed users to read submitted stories as well as view those stories
                     geographically.
                     This image shows the primary responsive touch desktop slider for all media on the story pages.
-                </description>
-                <category>responsive</category>
-            </sample>
-            <sample>
-                <title>Skype Stay Together</title>
-                <client>Uncorked Studios / Microsoft</client>
-                <image>img/work/full/skype_stay_together2.jpg</image>
-                <thumb>img/work/thumbs/skype_stay_together2.jpg</thumb>
-                <description>This image shows the same UI as the previous screen shot. Notice how the functionality is
-                    tailored specifically to mobile devices. The site included the ability to view your Facebook friend
-                    locations on a map.
                 </description>
                 <category>responsive</category>
             </sample>
@@ -305,12 +300,11 @@
                 <category>mobile</category>
             </sample>
             <sample>
-                <title>Hawaii Here</title>
-                <client>Tenfour / Hawaiian Airlines</client>
-                <image>img/work/full/hawaii_here2.jpg</image>
-                <thumb>img/work/thumbs/hawaii_here2.jpg</thumb>
-                <description>This screen shot shows the same project as the previous, but this is showing local POI's
-                    relative to the user's physical location.
+                <title>Yopine</title>
+                <client>Uncorked Studios</client>
+                <image>img/work/full/yopine.jpg</image>
+                <thumb>img/work/thumbs/yopine.jpg</thumb>
+                <description>I was one of several developers that helped launch Yopine. A native iOS app with Node/Socket.io web counterpart that allows users to create and send polls to their friends where each person can vote and see results in realtime.
                 </description>
                 <category>mobile</category>
             </sample>
@@ -326,10 +320,10 @@
             <sample>
                 <title>DIRECTV Goes to School</title>
                 <client>DIRECTV</client>
-                <image>img/work/full/DIRECTV_Goes_to_School2.jpg</image>
-                <thumb>img/work/thumbs/DIRECTV_Goes_to_School2.jpg</thumb>
-                <description>This DIRECTV project also provided media download resources for school fundraiser
-                    efforts.
+                <image>img/work/full/gts.jpg</image>
+                <thumb>img/work/thumbs/gts.jpg</thumb>
+                <description>I did both the backend and frontend for this CMS-powered Laravel/Angular site which also collects
+                    customer information.
                 </description>
                 <category>website</category>
             </sample>
@@ -517,11 +511,11 @@
     </experiences>
     <skills>
         <![CDATA[
-        Expert proficiency with the LAMP stack as well as JavaScript (including NodeJS/Backbone), Grunt and CSS. I'm
-        fluent with Git (including hooks), CSS3 (including precompilers Sass/LESS w/ compass and responsive layouts with
-        animation), native HTML5 APIs, jQuery Mobile, Markdown, cross-browser IE nonsense, Apache/Nginx configuration, dynamic JS module loading,
+        Expert proficiency with Angular and the LAMP stack, Grunt/Gulp and CSS. I'm
+        fluent with Git (including hooks), CSS3 (including Sass and responsive layouts with
+        animation), native HTML5 JS APIs, Markdown, cross-browser IE nonsense, Apache/Nginx configuration,
         agile workflows, reflow optimizations and social APIs. Some familiarity with Objective-C (iOS SDK 5-6),
-        Appcelerator (similar to PhoneGap), Wordpress, Drupal, Ruby/Rails, Sinatra and Heroku.
+        Appcelerator (similar to PhoneGap), Wordpress, Ruby/Rails, Sinatra and Heroku.
         ]]>
     </skills>
     <quotes>
@@ -535,7 +529,7 @@
     <oneoffs>
         <responsive>
             <![CDATA[
-            I specialize in mobile web development.  I'm keenly aware of often overlooked details such as IE10's snap mode,
+            I specialize in mobile web development.  I'm keenly aware of often overlooked details such as IE's snap mode,
             handling pointer/touch events correctly, GPU accelerated animation, and
             <a href="https://gist.github.com/jchaney01/5777866" target="_blank">mobile-first Sass techniques</a>.
             ]]>

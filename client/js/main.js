@@ -77,6 +77,7 @@ CHAKRA.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
+//											{image : '/img/slider-images/benchmade.jpg', title : '<div class="slide-content">Benchmade Customizer</div>', thumb : '', url : ''},
 											{image : '/img/slider-images/trapit.jpg', title : '<div class="slide-content">Trap.it NodeJS Website</div>', thumb : '', url : ''},
 											{image : '/img/slider-images/skype_stay_together.jpg', title : '<div class="slide-content">Skype Stay Together Wordpress Site</div>', thumb : '', url : ''},
 											{image : '/img/slider-images/yopine2.jpg', title : '<div class="slide-content">Yopine iOS App</div>', thumb : '', url : ''},

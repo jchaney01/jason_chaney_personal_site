@@ -16,7 +16,7 @@
 
     <title>{{$data->meta->title}}</title>
 
-    <meta name="description" content="Mobile web application development"/>
+    <meta name="description" content="{{$data->about->subtitle}}"/>
 
     <!-- Mobile Specifics -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -229,7 +229,8 @@
                         <span class="overlay-img"></span>
                         <span class="overlay-text-thumb">Yes, this is my real workstation</span>
                     </div>
-                    <img src="{{$data->about->freetime->code->image}}" alt="Jason Workstation">
+                    <img src="http://jasonchaney.imagefly.io/q_20/http://jasonchaney.com/{{$data->about->freetime->code->image}}" data-src="http://jasonchaney.com/{{$data->about->freetime->code->image}}" alt="Jason Workstation">
+<!--                    <img src="{{$data->about->freetime->code->image}}" alt="Jason Workstation">-->
                 </div>
                 <h3 class="profile-name">{{$data->about->freetime->code->title}}</h3>
 
@@ -480,6 +481,7 @@
 <script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
 <!-- Google Map API -->
 <script src="{{URL::asset('js/app.js')}}"></script>
+<script src="//js.imagefly.io/jasonchaney.min.js"></script>
 <!-- Default JS -->
 <!-- End Js -->
 

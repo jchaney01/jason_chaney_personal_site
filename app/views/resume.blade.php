@@ -19,10 +19,10 @@
     <div class="span12">
         <h1 style="font-size: 35px;margin-top: 22px;margin-bottom: 22px; line-height: 35px" class="animated fadeInLeft">Jason Chaney Résumé</h1>
         <img id="feature-image" alt="Jason Chaney Mugshot" src="/img/Jason-Chaney.jpg" class="img-rounded pull-left">
-        <p>I am a seasoned web developer that adheres to the highest level of semantic standards and
-            architectures. I have over 13 years of cutting-edge experience working for agencies, direct clients,
+        <p>I am a seasoned mobile web application developer that adheres to the highest level of semantic standards and
+            architectures. I have 20 years of cutting-edge technology experience working for agencies, direct clients,
             companies
-            and individuals. My passion is rooted in finding efficiency in digital communication though visual arts. I
+            and individuals with 10 years experience in web development. My passion is rooted in finding efficiency in digital communication though visual arts. I
             have
             experience leading distributed development teams, executing social campaigns, utilizing/building web
             services,
@@ -33,6 +33,14 @@
 <div class="span6">
 
     <div class="section"><h1 id="experience"> <i class="icon-tasks pull-left"></i> EXPERIENCE</h1>
+
+        <h2>Mobile Frontend Developer<br>(7/15/13 to Present) creativeFEW, Inc.</h2>
+
+        <ul>
+            <li>Develop complex Angular, Node and Laravel applications.</li>
+            <li>Build HTML5 Canvas and Angular visualization applications.</li>
+            <li>Work with other developers on various agency and B2B web applications.</li>
+        </ul>
 
         <h2>Senior Frontend Developer<br>(2013 to 7/15/13) Uncorked Studios</h2>
 
@@ -130,6 +138,9 @@
 <div class="span6">
 
     <div class="section"><h1 id="examples"><i class="icon-magic pull-left"></i> Work Examples</h1>
+        <h2 id="benchmade"><a href="http://customknife.benchmade.com/knives/" target="_blank">Benchmade Customizer - customknife.benchmade.com/knives</a></h2>
+
+        <p>I was the primary developer on this responsive AngularJS/HTML5 Canvas and Node application.  Users can customize all aspects of a knife including uploading their own art, custom text and blade shapes.  Customizations animate on screen using HTML5 Canvas, handles are programmatically colorized and final renders are generated with Node and sent to the engraver machines.</p>
 
         <h2 id="skype"><a href="http://skypestaytogether.com" target="_blank">Skype Stay Together - skypestaytogether.com</a></h2>
 
@@ -174,17 +185,7 @@
             and touch gestures.  Since it requires authentication, the short 1-min video will demonstrate its basic functions.
         </p>
 
-
-
-
-
-
-
-        <h2 id="the_oc"><a href="http://creativefew.com/oc/" target="_blank">The OC - creativefew.com/oc/</a></h2>
-
-        <p>I developed this Flash site to promote the upcoming release on DVD.</p>
-
-    </div>
+         </div>
     <div class="section"><h1 id="recognition_and_certifications"><i class="icon-star pull-left"></i> Recognition and Certifications</h1>
 
         <h2 id="2008_emmy_award">2008 Emmy Award</h2>
@@ -273,7 +274,7 @@
 </div>
 <div class="row-fluid">
     <div class="span12 social-links">
-        <a href="mailto:jason@creativeacceleration.com"><i class="icon-envelope-alt icon-3x pull-right"></i></a> <a href="http://www.linkedin.com/in/jchaney01/"><i class=" icon-linkedin-sign icon-3x pull-right"></i></a><a href="https://twitter.com/jchaney01"><i class=" icon-twitter icon-3x pull-right"></i></a><a href="tel:3104336322"><i class=" icon-phone-sign icon-3x pull-right"></i></a>
+        <a href="mailto:jchaney@creativefew.com"><i class="icon-envelope-alt icon-3x pull-right"></i></a> <a href="http://www.linkedin.com/in/jchaney01/"><i class=" icon-linkedin-sign icon-3x pull-right"></i></a><a href="https://twitter.com/jchaney01"><i class=" icon-twitter icon-3x pull-right"></i></a><a href="tel:3104336322"><i class=" icon-phone-sign icon-3x pull-right"></i></a>
     </div>
 </div>
 </div>
