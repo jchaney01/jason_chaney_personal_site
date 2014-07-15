@@ -71,7 +71,7 @@
 
                     behind my
                     Segway
-                    or learning new technologies like <a href="http://codeception.com/" target="_blank">Codeception</a>.
+                    or learning new technologies like the <a href="http://ionicframework.com" target="_blank">Ionic framework</a>.
                     ]]>
                 </body>
 
@@ -121,14 +121,14 @@
             <a href="http://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>
             or <a href="http://nodejs.org/" target="_blank">Node</a>.
 
-            Just this one answer can tell you tons about the nature of those developers. While it doesn't
+            This one answer can tell you tons about the nature of those developers. While it doesn't
             necessarily provide a way to know which one might be more skilled at software architecture, it does
             tell
             you which one probably has more knowledge that reaches beyond the average script-kiddies.
               ]]>
         </body>
         <asside>
-            I have talked to many developers who say they know JavaScript, when in fact what they really know is
+            I have talked to many developers who say they know Javascript, when in fact what they really know is
             how
             to modify
             <a href="http://jquery.com/" target="_blank">jQuery</a>
@@ -137,21 +137,19 @@
         </asside>
         <points>
             <point>
-                <headline>JavaScript</headline>
+                <headline>Javascript</headline>
                 <body>
                     <![CDATA[
-                    Most developers are going to say they know JavaScript but since JavaScript is a separate art in
+                    Most developers are going to say they know Javascript but since Javascript is a separate art in
                     it's
                     own right, I encourage prospective clients to really understand the level that someone
                     knows
-                    JavaScript. I don't simply modify JavaScript libraries or use a DOM manipulation tool like JQuery. I write
+                    Javascript. I don't simply modify Javascript libraries or use a DOM manipulation tool like <a href="http://jquery.com/" target="_blank">jQuery</a>. I write
                     <em>custom</em>
-                    JavaScript that follows the
+                    Javascript that follows the
                     <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank">MVC</a>
-                    design pattern utilizing tools like <a target="_blank" href="http://angularjs.org/">Angular</a>
-                    ,
-                    <a target="_blank" href="http://documentcloud.github.com/backbone/">Backbone</a>, <a target="_blank" href="http://requirejs.org/">RequireJS</a>,
-                    <a href="http://nodejs.org/">Node</a> and <a href="http://jade-lang.com/" target="_blank">Jade</a>. When I say I know JavaScript, I really know it.]]>
+                    design pattern utilizing tools like <a target="_blank" href="http://angularjs.org/">Angular</a>,
+                    <a href="http://nodejs.org/">Node</a> and <a href="http://jade-lang.com/" target="_blank">Jade</a>. When I say I know Javascript, I really know it.]]>
                 </body>
             </point>
             <point>
@@ -173,7 +171,7 @@
                     <a href="http://gruntjs.com/" target="_blank">Grunt</a> or <a href="http://gulpjs.com/" target="_blank">Gulp</a>
                     ,
                     and I love to find
-                    ever-efficient ways to use it for tasks like image compression, code compilation, linting, minifying and running automated acceptance tests.]]>
+                    ever-efficient ways to use it for tasks like image compression, code compilation, linting, minifying and running automated acceptance/E2E tests.]]>
                 </body>
             </point>
             <point>
@@ -195,10 +193,7 @@
                     Every developer is going to say they know CSS. What this really means, is that they understand
                     how to
                     position and style DOM elements. I take this further with
-                    <a href="http://sass-lang.com/">Sass</a> and the
-                    <a href="http://compass-style.org/" target="_blank">Compass</a>
-                    framework
-                    to
+                    <a href="http://sass-lang.com/">Sass</a> to
                     organize, optimize and generate cross-device/browser code. I also use <a href="https://gist.github.com/jchaney01/5777866" target="_blank">custom Sass mixins</a>
                      to further organize mobile-first styles.  Many developers don't consider things like
                     <a href="http://www.tuaw.com/2008/01/23/how-web-clips-work/" target="_blank">Webclips</a>
@@ -243,7 +238,7 @@
                     <![CDATA[
                     Unit, functional and acceptance testing is the practice of writing code that checks parts of the application for errors.
                     This practice usually results in more stable code with less bugs.  When I write tests, I usually use <a href="http://codeception.com/" target="_blank">Codeception</a>
-                     or <a href="https://github.com/pivotal/jasmine" target="_blank">Jasmine</a>.
+                     or <a href="https://github.com/pivotal/jasmine" target="_blank">Jasmine</a> via <a href="http://karma-runner.github.io/" target="_blank">Karma</a>.
                    ]]>
                 </body>
             </point>
@@ -366,12 +361,11 @@
                 <category>app</category>
             </sample>
             <sample>
-                <title>Rocky Peak Essentials</title>
-                <client>The Church at Rocky Peak</client>
-                <image>img/work/full/essentials.jpg</image>
-                <thumb>img/work/thumbs/essentials.jpg</thumb>
-                <description>This site was created to allow members to view and download video and audio courses. The
-                    site is powered by Amazon's S3.
+                <title>Campbell's Kitchen Plate of Mind</title>
+                <client>Pollinate</client>
+                <image>img/work/full/plateOfMind.jpg</image>
+                <thumb>img/work/thumbs/plateOfMind.jpg</thumb>
+                <description>This was my first Angular project.  It suggests recipes depending on your mood.  I created the UI with Sass and Angular and a separate dev team compiled it with Cordova/Phonegap.
                 </description>
                 <category>app</category>
             </sample>
@@ -536,16 +530,17 @@
         </responsive>
         <fullstack>
             <![CDATA[
-                 I'm a full stack front-end developer which means I work the entire development verticle.
-                 I use <a href="https://github.com/bower/bower" target="_blank">Bower</a>
-                 , <a href="http://getcomposer.org/" target="_blank">Composer</a>
-                 , <a href="http://gruntjs.com/" target="_blank">Grunt</a>
-                 , <a href="http://us.php.net/" target="_blank" >PHP</a>
-                 , <a href="http://angularjs.org/" target="_blank" >Angular</a>
-                 , <a href="http://www.mongodb.org/" target="_blank">MongoDB</a>
-                 , <a href="http://nodejs.org/" target="_blank">NodeJS</a>
-                 , <a href="http://backbonejs.org/" target="_blank" >Backbone</a>, <a href="http://requirejs.org/" target="_blank">RequireJS</a>
-                 , and web sericve APIs.
+                 I'm a full stack front-end developer which means I work the entire development vertical.
+                 I use
+                 <a href="https://github.com/bower/bower" target="_blank">Bower</a>,
+                 <a href="http://angularjs.org/" target="_blank">Angular</a>,
+                 <a href="http://sass-lang.com/" target="_blank">Sass</a>,
+                 <a href="http://nodejs.org/" target="_blank">NodeJS</a>,
+                 <a href="http://yeoman.io/" target="_blank">Yeoman</a>,
+                 <a href="http://gruntjs.com/" target="_blank">Grunt</a>,
+                 <a href="http://laravel.com/" target="_blank">Laravel</a>,
+                 <a href="https://github.com/" target="_blank">Github</a>,
+                 and various web service APIs.
             ]]>
         </fullstack>
     </oneoffs>

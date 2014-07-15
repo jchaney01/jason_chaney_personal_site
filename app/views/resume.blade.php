@@ -178,11 +178,9 @@
             raised and manage their DIRECTV subscription. A custom CMS was also built to allow administration of the
             program.  The site has since been closed and replaced with a more static version. </p>
 
-        <h2 id="nitra"><a href="http://www.youtube.com/watch?v=BnDb6kFfysA" target="_blank">Time Logging -
-                youtube.com/watch?v=BnDb6kFfysA</a></h2>
+        <h2 id="nitra"><a href="https://itunes.apple.com/us/app/plate-of-mind/id874343768?mt=8" target="_blank">Campbell's Kitchen Plate of Mind - https://itunes.apple.com/us/app/plate-of-mind/id874343768?mt=8</a></h2>
 
-        <p>This is a mobile web app I built to more efficiently log project time.  It demonstrates API usage, CSS3 animation,
-            and touch gestures.  Since it requires authentication, the short 1-min video will demonstrate its basic functions.
+        <p>This was my first Angular project.  It suggests recipes depending on your mood.  I created the UI with Sass and Angular and a separate dev team compiled it with Cordova/Phonegap.
         </p>
 
          </div>
