@@ -1,3 +1,16 @@
+body{
+  line-height: 17px;
+  font-size: 15px;
+}
+ul{
+  li{
+    line-height: 17px;
+  }
+}
+blockquote p{
+  line-height: 17px;
+  font-size: 15px;
+}
 @media print {
   * {
     background: transparent !important;
@@ -7,9 +20,11 @@
     filter: none !important;
     -ms-filter: none !important; }
 
+
+
 /* Black prints faster: h5bp.com/s */
   a, a:visited {
-    text-decoration: underline; }
+    text-decoration: none; }
 
   a[href]:after {
     content: " (" attr(href) ")"; }
@@ -52,7 +67,9 @@
     content: none; }
 
   #contactList {
-    font-size: .7em; } }
+    font-size: .7em; }
+
+}
 /*
 Animate.css - http://daneden.me/animate
 LICENSED UNDER THE  MIT LICENSE (MIT)
@@ -3176,6 +3193,7 @@ opacity: 0; } }
   .section {
     margin-bottom: 60px; }
 
+
   a {
     transition: all 1s;
     -moz-transition: all 1s;
@@ -3185,6 +3203,17 @@ opacity: 0; } }
     -o-transition: all 1s;
     /* Opera */ }
 
-  .social-links a:hover {
-    text-decoration: none; }
+  .social-links {
+    a{
+      &:hover{
+        text-decoration: none;
+      }
+    }
+    &.visible-print{
+      i{
+        margin-right: 20px;
+        font-size: 20px;
+      }
+    }
+  }
 }

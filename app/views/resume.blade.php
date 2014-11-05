@@ -19,14 +19,16 @@
     <div class="span12">
         <h1 style="font-size: 35px;margin-top: 22px;margin-bottom: 22px; line-height: 35px" class="animated fadeInLeft">Jason Chaney Résumé</h1>
         <img id="feature-image" alt="Jason Chaney Mugshot" src="/img/Jason-Chaney.jpg" class="img-rounded pull-left">
-        <p>I am a seasoned mobile web application developer that adheres to the highest level of semantic standards and
-            architectures. I have 20 years of cutting-edge technology experience working for agencies, direct clients,
+        <p>I am a seasoned autodidactic mobile web application developer that adheres to the highest level of semantic standards and
+            architectures. I have over 20 years of cutting-edge technology experience working for agencies, direct
+          clients,
             companies
-            and individuals with 10 years experience in web development. My passion is rooted in finding efficiency in digital communication though visual arts. I
+            and individuals. My passion is rooted in finding efficiency
+          in digital communication though visual arts. I
             have
-            experience leading distributed development teams, executing social campaigns, utilizing/building web
-            services,
-            prototyping new concepts, developing mobile initiatives and optimizing workflows. </p></div>
+            experience leading distributed development teams, building complex mobile web applications, executing
+          social campaigns, building web services,
+            prototyping new concepts, and optimizing workflows. </p></div>
 
 </div>
 <div class="row-fluid">
@@ -120,13 +122,13 @@
         </ul></div>
     <div class="section"><h1 id="technical_skills"><i class="icon-beaker pull-left"></i> Technical Skills</h1>
 
-        <p>Expert proficiency with the LAMP stack as well as JavaScript (including NodeJS/Backbone/Angular), Grunt and CSS. I'm
+        <p>Expert proficiency with the LAMP stack as well as JavaScript (including AngularJS/NodeJS), Grunt/Gulp and
+          CSS. I'm
             fluent
-            with Git (including hooks), CSS3 (including precompilers Sass/LESS w/ compass and responsive layouts with animation), native HTML5 APIs, jQuery
-            Mobile,
+            with Git (including hooks), CSS3 (including precompilers Sass/LESS w/ compass and responsive layouts with
+          animation), native HTML5 JS APIs,
             Markdown, cross-browser IE nonsense, dynamic JS module loading, agile workflows, reflow optimizations and social APIs. Some
-            familiarity with Objective-C (iOS SDK 5-6), Appcelerator (similar to PhoneGap), Wordpress, Drupal, Ruby/Rails,
-            Sinatra and Heroku.</p></div>
+            familiarity with Objective-C (iOS SDK 5-6) and Cordova</p></div>
 
     <div class="section"><h1 id="interpersonal_skills"><i class="icon-comments pull-left"></i> Interpersonal Skills</h1>
 
@@ -142,9 +144,10 @@
 
         <p>I was the primary developer on this responsive AngularJS/HTML5 Canvas and Node application.  Users can customize all aspects of a knife including uploading their own art, custom text and blade shapes.  Customizations animate on screen using HTML5 Canvas, handles are programmatically colorized and final renders are generated with Node and sent to the engraver machines.</p>
 
-        <h2 id="skype"><a href="http://skypestaytogether.com" target="_blank">Skype Stay Together - skypestaytogether.com</a></h2>
+        <h2 id="oregontreasures"><a href="http://oregonstreasures.com/" target="_blank">Oregon Lottery - oregonstreasures.com</a></h2>
 
-        <p>This Wordpress responsive site uses no frontend framework.  Users can read, follow and submit Skype stories as well as visualize where in the world their Facebook friends are.
+        <p>I created this AngularJS scratcher game for the Oregon Lottery. The app presents a series of timed games
+          testing the user's knowledge of Oregon landmarks.
         </p>
 
         <h2 id="yopine"><a href="https://itunes.apple.com/us/app/yopine/id630726533?ls=1&mt=8" target="_blank">Yopine Mobile App - itunes.apple.com/us/app/yopine/id630726533?ls=1&mt=8</a></h2>
@@ -220,10 +223,10 @@
                 numerous technical solutions to answer those questions. He was a project manager's dream since
                 he
                 instilled confidence in the fact that he would get his projects completed in a thoughtful and timely
-                manner.<br>
-                <strong>April 17, 2012 <a href="http://www.linkedin.com/profile/view?id=3584441">Bob White</a>,
+                manner.
+                <div><strong><a href="http://www.linkedin.com/profile/view?id=3584441">Bob White</a><br>
                     Producer
-                    - Dachis Group</strong></p>
+                    - Dachis Group</strong></div></p>
         </blockquote>
 
         <h2 id="from_a_colleague">From a colleague</h2>
@@ -237,9 +240,9 @@
                 to
                 ideas. He continuously strives to learn and improve his game. If he doesn't know the answer,
                 which
-                is seldom, he will find out…quickly. <br>
-                <strong>April 17, 2012 <a href="http://www.linkedin.com/profile/view?id=3517931">Marvin Gaviola</a>,
-                    Associate Creative Director - XPLANE</strong></p>
+                is seldom, he will find out…quickly.
+                <div><strong><a href="http://www.linkedin.com/profile/view?id=3517931">Marvin Gaviola</a><br>
+                    Associate Creative Director - XPLANE</strong></div></p>
         </blockquote>
 
         <h2 id="from_a_client">From a client</h2>
@@ -250,9 +253,9 @@
                 ability to execute them as well. I am also inspired by his attitude and approach to business coming
                 along side as a partner. I would highly recommend him and the
                 Creative Acceleration team. <br>
-                <strong>November 1, 2011 <a href="http://www.linkedin.com/profile/view?id=12434292">Brian
-                        Glassford</a>,
-                    Owner - Emergent Productions</strong></p>
+                <div><strong><a href="http://www.linkedin.com/profile/view?id=12434292">Brian
+                        Glassford</a>
+                    Owner - Emergent Productions</strong></div></p>
         </blockquote>
         <h2 id="from_a_manager">From management</h2>
 
@@ -262,8 +265,9 @@
                 conversation, offering new solutions to add value for the business. Not only that, he's a
                 delightful member of the team, bringing humor and positivity. It's a pleasure to work with
                 Jason.<br>
-                <strong>December 18, 2011 <a href="http://www.linkedin.com/profile/view?id=7509387">Teija Springman SPHR</a>,
-                    Director of Employee Experience - XPLANE</strong></p>
+                <div><strong><a href="http://www.linkedin.com/profile/view?id=7509387">Teija Springman SPHR</a><br>
+                    Director of Employee Experience - XPLANE</strong></div>
+            </p>
         </blockquote></div>
 
 </div>
@@ -271,8 +275,14 @@
 
 </div>
 <div class="row-fluid">
-    <div class="span12 social-links">
+    <div class="span12 social-links hidden-print">
         <a href="mailto:jchaney@creativefew.com"><i class="icon-envelope-alt icon-3x pull-right"></i></a> <a href="http://www.linkedin.com/in/jchaney01/"><i class=" icon-linkedin-sign icon-3x pull-right"></i></a><a href="https://twitter.com/jchaney01"><i class=" icon-twitter icon-3x pull-right"></i></a><a href="tel:3104336322"><i class=" icon-phone-sign icon-3x pull-right"></i></a>
+    </div>
+    <div class="span12 social-links visible-print">
+        <div><i class="icon-phone-sign"></i>310.433.6322</div>
+        <div><i class="icon-envelope-alt"></i>jchaney@creativefew.com</div>
+        <div><i class="icon-linkedin-sign"></i>http://www.linkedin.com/in/jchaney01</div>
+        <div><i class="icon-twitter"></i>https://twitter.com/jchaney01</div>
     </div>
 </div>
 </div>
