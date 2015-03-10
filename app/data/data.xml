@@ -4,15 +4,16 @@
     <meta>
         <title>Jason Chaney | Mobile Web Application Development</title>
     </meta>
-    <intro>I am a seasoned web developer that adheres to the highest level of semantic standards and architectures. I
-        have 13 years of cutting-edge experience working for agencies, direct clients, companies and individuals.
+    <intro>I am a seasoned web developer that adheres to the highest level of semantic standards and architectures.
+      Since 1994, I
+        have been exposed to cutting-edge technologies working for agencies, direct clients, companies and individuals.
         My passion is rooted in finding efficiency in digital communication though visual arts. I have experience
-        leading distributed development teams, executing social campaigns, utilizing/building web services, prototyping
+        leading distributed development teams, executing social campaigns, building web services, prototyping
         new concepts, developing mobile initiatives and optimizing workflows.
     </intro>
     <about>
         <title>Who is this Guy?</title>
-        <subtitle>I'm an autodidactic full-stack mobile front-end developer...with 20 years experience.</subtitle>
+        <subtitle>I'm an autodidactic full-stack mobile front-end developer...with over 20 years experience.</subtitle>
         <culture>
             <title>
                 My Culture
@@ -23,7 +24,7 @@
                 The techniques, tools and architecture patterns used to create the modern web literally change
                 everyday. As a professional developer, I consider it my responsibility to constantly keep up. I
                 listen to podcasts, follow industry leaders and collaborate with other professionals
-                daily to ensure I'm using the latest resources available when project crunch time hits.</p>
+                daily to ensure I'm using the latest resources available when project crunch-time hits.</p>
                 ]]>
             </body>
         </culture>
@@ -132,7 +133,8 @@
             how
             to modify
             <a href="http://jquery.com/" target="_blank">jQuery</a>
-            code. What I do here is outline the general approach and tools I use for interactive project
+            code or perform basic DOM manipulation. What I do here is outline the general approach and tools I use for
+          interactive project
             construction. This should give you a good idea as to the type of developer I am.
         </asside>
         <points>
@@ -148,7 +150,8 @@
                     <em>custom</em>
                     Javascript that follows the
                     <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank">MVC</a>
-                    design pattern utilizing tools like <a target="_blank" href="http://angularjs.org/">Angular</a>,
+                    design pattern utilizing tools like <a target="_blank" href="http://angularjs.org/">Angular</a>, <a href="http://facebook.github.io/react/" target="_blank">React</a>
+                    ,
                     <a href="http://nodejs.org/">Node</a> and <a href="http://jade-lang.com/" target="_blank">Jade</a>. When I say I know Javascript, I really know it.]]>
                 </body>
             </point>
@@ -157,7 +160,7 @@
                 <body>
                     <![CDATA[
                     Again, all developers are going to say they know CSS but how many understand why and when to use an <a href="http://css-tricks.com/examples/IconFont/" target="_blank">icon-font</a>, manage high-density displays, integrate
-                     view transitions, handle gestures in the presentation layer or manage complex z-index states? I do.
+                     view transitions, handle gestures in the presentation layer, <a href="http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/" target="_blank">BEM syntax</a> or manage complex z-index states? I do.
                      ]]>
                 </body>
             </point>

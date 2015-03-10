@@ -20,13 +20,13 @@
         <h1 style="font-size: 35px;margin-top: 22px;margin-bottom: 22px; line-height: 35px" class="animated fadeInLeft">Jason Chaney Résumé</h1>
         <img id="feature-image" alt="Jason Chaney Mugshot" src="/img/Jason-Chaney.jpg" class="img-rounded pull-left">
         <p>I am a seasoned autodidactic mobile web application developer that adheres to the highest level of semantic standards and
-            architectures. I have over 20 years of cutting-edge technology experience working for agencies, direct
+            architectures. Since 1994, I've been exposed to cutting-edge technology while working for agencies, direct
           clients,
             companies
             and individuals. My passion is rooted in finding efficiency
           in digital communication though visual arts. I
             have
-            experience leading distributed development teams, building complex mobile web applications, executing
+            experience leading distributed development teams, developing complex mobile web applications, executing
           social campaigns, building web services,
             prototyping new concepts, and optimizing workflows. </p></div>
 
