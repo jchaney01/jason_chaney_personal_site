@@ -13,7 +13,10 @@
     </intro>
     <about>
         <title>Who is this Guy?</title>
-        <subtitle>I'm an autodidactic full-stack mobile front-end developer...with over 20 years experience.</subtitle>
+        <subtitle>I'm an agile autodidactic full-stack mobile front-end developer with over 20 years
+            professional experience who is primarily focusing on complex Javascript and responsive/animated CSS web
+            applications.
+        </subtitle>
         <culture>
             <title>
                 My Culture
@@ -22,7 +25,7 @@
                 <![CDATA[
                 <p>
                 The techniques, tools and architecture patterns used to create the modern web literally change
-                everyday. As a professional developer, I consider it my responsibility to constantly keep up. I
+                every day. As a professional developer, I consider it my responsibility to constantly keep up. I
                 listen to podcasts, follow industry leaders and collaborate with other professionals
                 daily to ensure I'm using the latest resources available when project crunch-time hits.</p>
                 ]]>
@@ -146,13 +149,13 @@
                     it's
                     own right, I encourage prospective clients to really understand the level that someone
                     knows
-                    Javascript. I don't simply modify Javascript libraries or use a DOM manipulation tool like <a href="http://jquery.com/" target="_blank">jQuery</a>. I write
+                    Javascript and Javascript frameworks and tools. I don't simply modify Javascript libraries or
+                    use a DOM manipulation tool like <a href="http://jquery.com/" target="_blank">jQuery</a>. I write
                     <em>custom</em>
                     Javascript that follows the
                     <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank">MVC</a>
-                    design pattern utilizing tools like <a target="_blank" href="http://angularjs.org/">Angular</a>, <a href="http://facebook.github.io/react/" target="_blank">React</a>
-                    ,
-                    <a href="http://nodejs.org/">Node</a> and <a href="http://jade-lang.com/" target="_blank">Jade</a>. When I say I know Javascript, I really know it.]]>
+                    design pattern utilizing tools like <a target="_blank" href="http://angularjs.org/">Angular</a>, <a href="http://facebook.github.io/react/" target="_blank">React</a> and
+                    <a href="http://nodejs.org/">Node</a> all in an <a target="_blank" href="https://en.wikipedia.org/wiki/Agile_software_development">agile</a> workflow. When I say I know Javascript, I really know it.]]>
                 </body>
             </point>
             <point>
@@ -182,7 +185,7 @@
                 <body>
                     <![CDATA[
                     There are only benefits to using Git so any developer that doesn't, usually hasn't worked in teams.  I understand
-                    feature branches, rebases, resolving merge conflicts, hooks, and even <a href="http://git-scm.com/docs/git-reflog" target="_blank">reflog</a>.
+                    feature branches, rebases, gitflow, resolving merge conflicts, hooks, and even <a href="http://git-scm.com/docs/git-reflog" target="_blank">reflog</a>.
                     I love <a href="http://danbarber.me/using-git-for-deployment/" target="_blank">Git deployment</a> but if I am stuck dealing with FTP, I'll use something like
                     <a href="https://github.com/scttnlsn/dandelion" target="_blank">Dandelion</a>. If <a href="http://en.wikipedia.org/wiki/Rsync" target="_blank">Rsync</a> is at least an option, I'll use
                     <a href="https://github.com/jedrichards/grunt-rsync" target="_blank">grunt-rsync</a> so I can automate deployment as part of my build process]]>
@@ -232,17 +235,6 @@
                     <![CDATA[
                     Today's interactive applications must run on many platforms.  The average project I do is tested in over 30 browser versions.
                     I personally own most software platforms and test locally including Microsoft's Surface Pro, Android, iOS, and can emulate all desktop browsers.]]>
-                </body>
-            </point>
-
-            <point>
-                <headline>Testing</headline>
-                <body>
-                    <![CDATA[
-                    Unit, functional and acceptance testing is the practice of writing code that checks parts of the application for errors.
-                    This practice usually results in more stable code with less bugs.  When I write tests, I usually use <a href="http://codeception.com/" target="_blank">Codeception</a>
-                     or <a href="https://github.com/pivotal/jasmine" target="_blank">Jasmine</a> via <a href="http://karma-runner.github.io/" target="_blank">Karma</a>.
-                   ]]>
                 </body>
             </point>
         </points>

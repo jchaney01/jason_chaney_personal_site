@@ -121,21 +121,6 @@
         <!-- Portfolio Projects -->
         <div class="row">
             <div class="span12">
-                <!-- Filter -->
-                <!--                <nav id="options" class="work-nav">-->
-                <!--                    <ul id="filters" class="option-set" data-option-key="filter">-->
-                <!--                        <li class="type-work">Type of Work</li>-->
-                <!--                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>-->
-                <!--                        <li><a href="#filter" data-option-value=".design">Design</a></li>-->
-                <!--                        <li><a href="#filter" data-option-value=".illustration">Illustration</a></li>-->
-                <!--                        <li><a href="#filter" data-option-value=".photography">Photography</a></li>-->
-                <!--                        <li><a href="#filter" data-option-value=".video">Video</a></li>-->
-                <!--                    </ul>-->
-                <!--                </nav>-->
-                <!-- End Filter -->
-            </div>
-
-            <div class="span12">
                 <div class="row">
                     <section id="projects">
                         <ul id="thumbs">
@@ -197,14 +182,6 @@
 
                 <p class="profile-description">{{$data->about->freetime->dad->body}}</p>
 
-<!--                <div class="social">-->
-<!--                    <ul class="social-icons">-->
-<!--                        <li><a href="http://twitter.com/jchaney01" target="_blank"><i-->
-<!--                                    class="font-icon-social-twitter"></i></a></li>-->
-<!--                        <li><a href="http://www.linkedin.com/in/jchaney01/" target="_blank"><i-->
-<!--                                    class="font-icon-social-linkedin"></i></a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
             </div>
             <!-- End Profile -->
 

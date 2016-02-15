@@ -26,7 +26,8 @@
             and individuals. My passion is rooted in finding efficiency
           in digital communication though visual arts. I
             have
-            experience leading distributed development teams, developing complex mobile web applications, executing
+            experience leading distributed development teams, developing complex mobile web applications in an Agile
+            environment, executing
           social campaigns, building web services,
             prototyping new concepts, and optimizing workflows. </p></div>
 
@@ -36,22 +37,22 @@
 
     <div class="section"><h1 id="experience"> <i class="icon-tasks pull-left"></i> EXPERIENCE</h1>
 
-        <h2>Mobile Frontend Developer<br>(7/15/13 to Present) creativeFEW, Inc.</h2>
+        <h2>Contract Mobile Frontend Developer<br>(7/15/13 to Present) creativeFEW, Inc.</h2>
 
         <ul>
-            <li>Develop complex Angular, Node and Laravel applications.</li>
-            <li>Build HTML5 Canvas and Angular visualization applications.</li>
-            <li>Work with other developers on various agency and B2B web applications.</li>
+            <li>Develop complex mobile Angular, Node and React applications.</li>
+            <li>Build HTML5 Canvas and D3-based visualizations.</li>
+            <li>Work with other developers on various agency and B2B desktop and mobile web applications.</li>
         </ul>
 
-        <h2>Senior Frontend Developer<br>(2013 to 7/15/13) Uncorked Studios</h2>
+        <h2>Contract Frontend Developer<br>(2013 to 7/15/13) Uncorked Studios</h2>
 
         <ul>
             <li>Develop Node.js/MongoDB, PHP and Wordpress mobile-web applications.</li>
-            <li>Automate deployment workflows</li>
+            <li>Automate deployment and production workflows</li>
             <li>Develop complex responsive sites for global brands</li>
             <li>Interface with native iOS developers to ensure application consistency and performance</li>
-            <li>Cross-device/browser debugging</li>
+            <li>Extensive Cross-device/browser debugging</li>
         </ul>
 
         <h2>Senior Frontend Developer<br>(2012 to 2013) Tenfour Agency</h2>
@@ -122,18 +123,18 @@
         </ul></div>
     <div class="section"><h1 id="technical_skills"><i class="icon-beaker pull-left"></i> Technical Skills</h1>
 
-        <p>Expert proficiency with the LAMP stack as well as JavaScript (including AngularJS/NodeJS), Grunt/Gulp and
-          CSS. I'm
-            fluent
-            with Git (including hooks), CSS3 (including precompilers Sass/LESS w/ compass and responsive layouts with
-          animation), native HTML5 JS APIs, Ionic framework,
-            Markdown, cross-browser IE nonsense, dynamic JS module loading, agile workflows, reflow optimizations and social APIs. Some
-            familiarity with Objective-C (iOS SDK 5-6) and Cordova</p></div>
+        <p>Expert proficiency with the Javascript stack including AngularJS, NodeJS and ReactJS), Grunt/Gulp
+            as well as complex responsive and animated CSS. I'm
+            fluent with Git (including hooks and Gitflow), CSS3 (including the Sass precompiler, Flexbox and
+            Bootstrap/NEAT and Foundation) responsive and animated UI layouts, native HTML5 JS APIs, Ionic framework,
+            Markdown, cross-browser IE nonsense, dynamic JS module loading, Agile workflows, reflow optimizations and
+            social APIs. Enough familiarity with Objective-C/Swift and Cordova to know how web apps should work.</p></div>
 
     <div class="section"><h1 id="interpersonal_skills"><i class="icon-comments pull-left"></i> Interpersonal Skills</h1>
 
-        <p>I love to work with people who are more knowledgeable than I am.  I ask a ton of questions and strive to always learn.  I work extremely well with others and can juggle many things at once. I am highly adaptable,
-            dependable and flexible with the ability to accurately estimate time requirements.</p></div>
+        <p>I love to work with people who are more knowledgeable than I am.  I ask a ton of questions and strive to
+            always be learning.  I work extremely well with others and can juggle many things at once. I am highly
+            adaptable, dependable and flexible with the ability to accurately estimate effort requirements.</p></div>
 
 
 </div>
