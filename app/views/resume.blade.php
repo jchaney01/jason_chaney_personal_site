@@ -126,7 +126,7 @@
           CSS. I'm
             fluent
             with Git (including hooks), CSS3 (including precompilers Sass/LESS w/ compass and responsive layouts with
-          animation), native HTML5 JS APIs,
+          animation), native HTML5 JS APIs, Ionic framework,
             Markdown, cross-browser IE nonsense, dynamic JS module loading, agile workflows, reflow optimizations and social APIs. Some
             familiarity with Objective-C (iOS SDK 5-6) and Cordova</p></div>
 

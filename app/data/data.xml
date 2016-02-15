@@ -160,7 +160,7 @@
                 <body>
                     <![CDATA[
                     Again, all developers are going to say they know CSS but how many understand why and when to use an <a href="http://css-tricks.com/examples/IconFont/" target="_blank">icon-font</a>, manage high-density displays, integrate
-                     view transitions, handle gestures in the presentation layer, <a href="http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/" target="_blank">BEM syntax</a> or manage complex z-index states? I do.
+                     view transitions, handle gestures in the presentation layer, <a href="http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/" target="_blank">BEM syntax</a>, flexbox or manage complex z-index states? I do.
                      ]]>
                 </body>
             </point>

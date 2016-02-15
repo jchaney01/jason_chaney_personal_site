@@ -188,7 +188,8 @@
                 <div class="image-wrap">
                     <div class="hover-wrap">
                         <span class="overlay-img"></span>
-                        <span class="overlay-text-thumb">That's an iPod on my wrist</span>
+                        <span class="overlay-text-thumb">That's an iPod on my wrist years before Apple Watch
+                          existed.</span>
                     </div>
                     <img src="{{$data->about->freetime->dad->image}}" alt="Jason Chaney">
                 </div>
